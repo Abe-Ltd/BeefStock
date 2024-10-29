@@ -430,15 +430,15 @@
                 </tbody>
             </table>
             <br/>
-            <a href="Pages/ConfirmationPage.html"class="btn btn-subtle-success me-1 mb-1" type="button">Confirm</a>
+            <a data-bs-toggle="modal" data-bs-target="#shiftDateConfirm" class="btn btn-subtle-success me-1 mb-1" type="button">Confirm</a>
             
             
         </div>
     </div>
         
     </div>
-      <div class="modal fade" id="lineDetailsSW" tabindex="-1" aria-labelledby="scrollingLongModalLabel2" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+      <div class="modal fade" id="lineDetailsSW" tabindex="-1" aria-labelledby="lineDetailsSWLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
               
@@ -448,78 +448,35 @@
                   <table class="table table-hover table-striped">
                       <thead>
                           <tr><th>Name</th>
-                          <th>PLU</th>
-                          <th>Group</th>
-                          <th>Quantity</th>
-                          <th>Profit</th>
-                          <th>Gross Profit %</th>
-                        </tr>
+                          <th>SKU</th>
+                          <th>Date</th>
+                          <th>Value</th></tr>
                       </thead>
                       <tbody>
-                        <tr><td>Breda</td><td>75</td><td>Wet</td><td>9.5</td><td>53.85</td><td>1</td>
-                          <tr><td>Rocquettes</td><td>76</td><td>Wet</td><td>10</td><td>66.4</td><td>1</td>
-                          <tr><td>Camden</td><td>78</td><td>Wet</td><td>7</td><td>43.8</td><td>1</td>
-                          <tr><td>Birra Moretti</td><td>80</td><td>Wet</td><td>12</td><td>83.18</td><td>1</td>
-                          <tr><td>Corona</td><td>83</td><td>Wet</td><td>2</td><td>9.03</td><td>1</td>
-                          <tr><td>Peroni</td><td>84</td><td>Wet</td><td>3</td><td>14.85</td><td>1</td>
-                          <tr><td>Guiness Can</td><td>86</td><td>Wet</td><td>2</td><td>10.78</td><td>1</td>
-                          <tr><td>Mahou</td><td>89</td><td>Wet</td><td>7.5</td><td>48.36</td><td>1</td>
-                          <tr><td>Campari</td><td>91</td><td>Wet</td><td>2</td><td>10.9</td><td>1</td>
-                          <tr><td>Tequila 1800 Reposado</td><td>113</td><td>Wet</td><td>3.76</td><td>36.24</td><td>1</td>
-                          <tr><td>Gordons London Gin</td><td>114</td><td>Wet</td><td>5</td><td>22.95</td><td>1</td>
-                          <tr><td>Tanqueray</td><td>121</td><td>Wet</td><td>2</td><td>9</td><td>1</td>
-                          <tr><td>Absolut Blue</td><td>123</td><td>Wet</td><td>4</td><td>19.8</td><td>1</td>
-                          <tr><td>Havana Club 3</td><td>126</td><td>Wet</td><td>1.32</td><td>17.2</td><td>1</td>
-                          <tr><td>Havana Club 7</td><td>127</td><td>Wet</td><td>2.31</td><td>18.25</td><td>1</td>
-                          <tr><td>Morgans Dark</td><td>128</td><td>Wet</td><td>1.32</td><td>17.6</td><td>1</td>
-                          <tr><td>Appletiser</td><td>145</td><td>Wet</td><td>12</td><td>49.4</td><td>1</td>
-                          <tr><td>Coke</td><td>146</td><td>Wet</td><td>18</td><td>53.42</td><td>1</td>
-                          <tr><td>Diet Coke</td><td>147</td><td>Wet</td><td>19</td><td>56.45</td><td>1</td>
-                          <tr><td>Fanta</td><td>148</td><td>Wet</td><td>1</td><td>3.03</td><td>1</td>
-                          <tr><td>Ginger Ale</td><td>149</td><td>Wet</td><td>1</td><td>3.03</td><td>1</td>
-                          <tr><td>Ginger Beer</td><td>150</td><td>Wet</td><td>3</td><td>9.09</td><td>1</td>
-                          <tr><td>J2O</td><td>151</td><td>Wet</td><td>8</td><td>29.05</td><td>1</td>
-                          <tr><td>Lemonade</td><td>152</td><td>Wet</td><td>7</td><td>19</td><td>1</td>
-                          <tr><td>Cranberry & Soda</td><td>156</td><td>Wet</td><td>2</td><td>6.06</td><td>1</td>
-                          <tr><td>Lime & Soda</td><td>157</td><td>Wet</td><td>4</td><td>12.12</td><td>1</td>
-                          <tr><td>Apple Juice</td><td>159</td><td>Wet</td><td>9</td><td>24.5</td><td>1</td>
-                          <tr><td>Orange Juice</td><td>160</td><td>Wet</td><td>6</td><td>16.5</td><td>1</td>
-                          <tr><td>Pint Soft Drink</td><td>162</td><td>Wet</td><td>13</td><td>56.8</td><td>1</td>
-                          <tr><td>FT Ginger Ale</td><td>167</td><td>Wet</td><td>2</td><td>5.5</td><td>1</td>
-                          <tr><td>FT Light</td><td>169</td><td>Wet</td><td>3</td><td>7.75</td><td>1</td>
-                          <tr><td>FT Soda</td><td>170</td><td>Wet</td><td>3</td><td>8</td><td>1</td>
-                          <tr><td>Coke</td><td>174</td><td>Wet</td><td>1</td><td>2.2</td><td>1</td>
-                          <tr><td>Diet Coke</td><td>176</td><td>Wet</td><td>2</td><td>4.4</td><td>1</td>
-                          <tr><td>FT Gold Tonic</td><td>182</td><td>Wet</td><td>5</td><td>10.2</td><td>1</td>
-                          <tr><td>FT Light</td><td>184</td><td>Wet</td><td>0</td><td>0</td><td>0</td>
-                          <tr><td>Open_Food</td><td>283</td><td>Wet</td><td>39</td><td>479.97</td><td>1</td>
-                          <tr><td>Open_Drinks</td><td>284</td><td>Wet</td><td>9</td><td>47.39</td><td>1</td>
-                          <tr><td>with MASH</td><td>296</td><td>Wet</td><td>4</td><td>0</td><td>0</td>
-                          <tr><td>with CHIPS</td><td>297</td><td>Wet</td><td>4</td><td>0</td><td>0</td>
-                          <tr><td>OAT Milk</td><td>326</td><td>Wet</td><td>20</td><td>5.18</td><td>1</td>
-                          <tr><td>COLD Milk</td><td>329</td><td>Wet</td><td>3</td><td>0</td><td>0</td>
-                          <tr><td>DECAF</td><td>331</td><td>Wet</td><td>30</td><td>0</td><td>0</td>
-                          <tr><td>Single Shot</td><td>332</td><td>Wet</td><td>1</td><td>0</td><td>0</td>
-                          <tr><td>Nero D'Avola</td><td>344</td><td>Wet</td><td>0.25</td><td>7.7</td><td>1</td>
-                          <tr><td>Moulin D'Issan</td><td>354</td><td>Wet</td><td>1</td><td>41.58</td><td>1</td>
-                          <tr><td>Chardonnay Marcel Martin</td><td>372</td><td>Wet</td><td>1.4</td><td>36.7</td><td>1</td>
-                          <tr><td>Villa Molino</td><td>388</td><td>Wet</td><td>0.35</td><td>10.07</td><td>1</td>
-                          <tr><td>Villa Sandi Prosecco</td><td>392</td><td>Wet</td><td>0</td><td>0</td><td>0</td>
-                          <tr><td>Castelnau Champagne</td><td>395</td><td>Wet</td><td>1</td><td>61.82</td><td>1</td>
-                          <tr><td>Corona ZERO</td><td>478</td><td>Wet</td><td>2</td><td>9.46</td><td>1</td>
-                          <tr><td>Coridal - Lime</td><td>480</td><td>Wet</td><td>2</td><td>1.1</td><td>1</td>
-                          <tr><td>Cordial - Blackcurrant</td><td>481</td><td>Wet</td><td>0</td><td>0</td><td>0</td>
-                          <tr><td>Pinot Noir Ropiteau</td><td>796</td><td>Wet</td><td>2.05</td><td>53.75</td><td>1</td>
-                          <tr><td>Merlot Holbrooks Road</td><td>797</td><td>Wet</td><td>1.55</td><td>53.54</td><td>1</td>
-                          <tr><td>Malbec P15</td><td>798</td><td>Wet</td><td>2.95</td><td>105.55</td><td>1</td>
-                          <tr><td>Chateau Cotes de Saint</td><td>801</td><td>Wet</td><td>1</td><td>39.6</td><td>1</td>
-                          <tr><td>Pinot Grigio Serena</td><td>807</td><td>Wet</td><td>0.3</td><td>9.85</td><td>1</td>
-                          <tr><td>Vinho Verde</td><td>808</td><td>Wet</td><td>0.6</td><td>18.98</td><td>1</td>
-                          <tr><td>Southern Dawn </td><td>809</td><td>Wet</td><td>5.95</td><td>178.04</td><td>1</td>
-                          <tr><td>Barbelle Rose Fleurie</td><td>818</td><td>Wet</td><td>1.6</td><td>61.38</td><td>1</td>
-                          <tr><td>Discovery Beach</td><td>819</td><td>Wet</td><td>0</td><td>0</td><td>0</td>
-                          <tr><td>Biozel Champagne</td><td>820</td><td>Wet</td><td>0</td><td>0</td><td>0</td>
-                          
+                        <tr>
+                          <td>Name 1</td>
+                          <td>JK-0994</td>
+                          <td>1st Jan 1970</td>
+                          <td>£25</td>
+                        </tr>
+                        <tr>
+                          <td>Name 2</td>
+                          <td>JK-08894</td>
+                          <td>1st Jan 1970</td>
+                          <td>£25</td>
+                        </tr>
+                        <tr>
+                          <td>Name 3</td>
+                          <td>JK-09984</td>
+                          <td>1st Jan 1970</td>
+                          <td>£25</td>
+                        </tr>
+                        <tr>
+                          <td>Name 4</td>
+                          <td>JK-9754</td>
+                          <td>1st Jan 1970</td>
+                          <td>£25</td>
+                        </tr>
                       </tbody>
                   </table>
                 </div>
@@ -527,8 +484,8 @@
               </div>
           </div>
       </div>
-      <div class="modal fade" id="lineDetailsSD" tabindex="-1" aria-labelledby="scrollingLongModalLabel2" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+      <div class="modal fade" id="lineDetailsSD" tabindex="-1" aria-labelledby="lineDetailsSDLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header">
             
@@ -537,187 +494,36 @@
             <div class="modal-body">
                 <table class="table table-hover table-striped">
                     <thead>
-                      <tr><th>Name</th>
-                        <th>PLU</th>
-                        <th>Group</th>
-                        <th>Quantity</th>
-                        <th>Profit</th>
-                        <th>Gross Profit %</th>
+                        <tr><th>Name</th>
+                        <th>SKU</th>
+                        <th>Date</th>
+                        <th>Value</th></tr>
                     </thead>
                     <tbody>
-                      <tr><td>Le Gouffre Breakfast</td><td>8</td><td>Dry</td><td>6</td><td>89.1</td><td>1</td>
-                        <tr><td>Caesar Salad</td><td>22</td><td>Dry</td><td>2</td><td>35.2</td><td>1</td>
-                        <tr><td>Fries</td><td>44</td><td>Dry</td><td>4</td><td>11</td><td>1</td>
-                        <tr><td>Roast Chicken</td><td>61</td><td>Dry</td><td>8</td><td>191</td><td>1</td>
-                        <tr><td>Apple Pie</td><td>68</td><td>Dry</td><td>1</td><td>7</td><td>1</td>
-                        <tr><td>Americano Black</td><td>194</td><td>Dry</td><td>25</td><td>83.52</td><td>1</td>
-                        <tr><td>Americano White</td><td>195</td><td>Dry</td><td>16</td><td>52.8</td><td>1</td>
-                        <tr><td>White Coffee</td><td>196</td><td>Dry</td><td>33</td><td>109.12</td><td>1</td>
-                        <tr><td>Flat White</td><td>197</td><td>Dry</td><td>54</td><td>201.96</td><td>1</td>
-                        <tr><td>Latte</td><td>198</td><td>Dry</td><td>66</td><td>232.9</td><td>1</td>
-                        <tr><td>Macchiato</td><td>199</td><td>Dry</td><td>2</td><td>5.04</td><td>1</td>
-                        <tr><td>Mocha</td><td>200</td><td>Dry</td><td>11</td><td>41.81</td><td>1</td>
-                        <tr><td>Espresso</td><td>201</td><td>Dry</td><td>2</td><td>4.84</td><td>1</td>
-                        <tr><td>Hot Chocolate</td><td>202</td><td>Dry</td><td>8</td><td>30.71</td><td>1</td>
-                        <tr><td>Tea Breakfast</td><td>203</td><td>Dry</td><td>47</td><td>155.2</td><td>1</td>
-                        <tr><td>Tea Earl Grey</td><td>204</td><td>Dry</td><td>1</td><td>3.2</td><td>1</td>
-                        <tr><td>Tea Decaf</td><td>206</td><td>Dry</td><td>1</td><td>3.52</td><td>1</td>
-                        <tr><td>Tea Green</td><td>207</td><td>Dry</td><td>1</td><td>3.52</td><td>1</td>
-                        <tr><td>Tea Lemon Ginger</td><td>208</td><td>Dry</td><td>2</td><td>6.4</td><td>1</td>
-                        <tr><td>Tea Mint</td><td>209</td><td>Dry</td><td>6</td><td>20.48</td><td>1</td>
-                        <tr><td>Tea Rooibos</td><td>210</td><td>Dry</td><td>1</td><td>3.2</td><td>1</td>
-                        <tr><td>Tea Lemon Green</td><td>211</td><td>Dry</td><td>1</td><td>3.52</td><td>1</td>
-                        <tr><td>Caramel</td><td>214</td><td>Dry</td><td>2</td><td>1.05</td><td>1</td>
-                        <tr><td>Vanilla</td><td>215</td><td>Dry</td><td>3</td><td>1.55</td><td>1</td>
-                        <tr><td>Cappucino</td><td>223</td><td>Dry</td><td>73</td><td>257.38</td><td>1</td>
-                        <tr><td>Add Bacon</td><td>246</td><td>Dry</td><td>5</td><td>13.75</td><td>1</td>
-                        <tr><td>SOURDOUGH Toast</td><td>252</td><td>Dry</td><td>9</td><td>0</td><td>0</td>
-                        <tr><td>Add Fried Egg</td><td>258</td><td>Dry</td><td>1</td><td>1.65</td><td>1</td>
-                        <tr><td>Add Sausage</td><td>259</td><td>Dry</td><td>4</td><td>11</td><td>1</td>
-                        <tr><td>Add Cheddar</td><td>262</td><td>Dry</td><td>1</td><td>1.65</td><td>1</td>
-                        <tr><td>BLUE</td><td>268</td><td>Dry</td><td>0</td><td>0</td><td>0</td>
-                        <tr><td>MED RARE</td><td>270</td><td>Dry</td><td>5</td><td>0</td><td>0</td>
-                        <tr><td>MED</td><td>271</td><td>Dry</td><td>2</td><td>0</td><td>0</td>
-                        <tr><td>MED WELL</td><td>272</td><td>Dry</td><td>1</td><td>0</td><td>0</td>
-                        <tr><td>WELL DONE</td><td>273</td><td>Dry</td><td>2</td><td>0</td><td>0</td>
-                        <tr><td>Lemon Cake</td><td>278</td><td>Dry</td><td>5</td><td>25</td><td>1</td>
-                        <tr><td>Carrot & Orange Cake</td><td>279</td><td>Dry</td><td>9</td><td>45.5</td><td>1</td>
-                        <tr><td>Cakes Open</td><td>282</td><td>Dry</td><td>44</td><td>217.29</td><td>1</td>
-                        <tr><td>Roast Pork</td><td>316</td><td>Dry</td><td>5</td><td>109.75</td><td>1</td>
-                        <tr><td>Apple Lattice</td><td>333</td><td>Dry</td><td>1</td><td>5.5</td><td>1</td>
-                        <tr><td>Caprese</td><td>336</td><td>Dry</td><td>0</td><td>0</td><td>0</td>
-                        <tr><td>Add BEANS</td><td>339</td><td>Dry</td><td>1</td><td>1.65</td><td>1</td>
-                        <tr><td>Add MUSHROOMS</td><td>340</td><td>Dry</td><td>2</td><td>3.3</td><td>1</td>
-                        <tr><td>Pork Belly</td><td>400</td><td>Dry</td><td>7</td><td>61.6</td><td>1</td>
-                        <tr><td>Charcuterie Plate</td><td>453</td><td>Dry</td><td>1</td><td>9.9</td><td>1</td>
-                        <tr><td>Steak & Eggs</td><td>468</td><td>Dry</td><td>3</td><td>39.6</td><td>1</td>
-                        <tr><td>Coconut Shrimp</td><td>484</td><td>Dry</td><td>3</td><td>29.7</td><td>1</td>
-                        <tr><td>Courgette Fritters</td><td>485</td><td>Dry</td><td>4</td><td>35.2</td><td>1</td>
-                        <tr><td>Chilli Beef Cheek Tostad</td><td>486</td><td>Dry</td><td>3</td><td>26.4</td><td>1</td>
-                        <tr><td>Pan Con Tomate Parma Ham</td><td>487</td><td>Dry</td><td>0</td><td>0</td><td>0</td>
-                        <tr><td>Sea Bass + Prawns</td><td>491</td><td>Dry</td><td>1</td><td>28.6</td><td>1</td>
-                        <tr><td>Guacamole</td><td>496</td><td>Dry</td><td>2</td><td>17.6</td><td>1</td>
-                        <tr><td>TF Apple Crumble</td><td>512</td><td>Dry</td><td>0</td><td>0</td><td>1</td>
-                        <tr><td>Chicken</td><td>551</td><td>Dry</td><td>2</td><td>11</td><td>1</td>
-                        <tr><td>Smoked Salmon Scrambled </td><td>621</td><td>Dry</td><td>2</td><td>26.4</td><td>1</td>
-                        <tr><td>Croque Monsieur</td><td>623</td><td>Dry</td><td>2</td><td>22</td><td>1</td>
-                        <tr><td>Croque Madame</td><td>624</td><td>Dry</td><td>3</td><td>36.3</td><td>1</td>
-                        <tr><td>Mushroom Poached Eggs</td><td>626</td><td>Dry</td><td>3</td><td>31.35</td><td>1</td>
-                        <tr><td>Veggie Breakfast</td><td>627</td><td>Dry</td><td>2</td><td>29.7</td><td>1</td>
-                        <tr><td>Eggs Benedict</td><td>628</td><td>Dry</td><td>6</td><td>62.7</td><td>1</td>
-                        <tr><td>Eggs Royale</td><td>629</td><td>Dry</td><td>1</td><td>13.75</td><td>1</td>
-                        <tr><td>Eggs Florentine</td><td>630</td><td>Dry</td><td>1</td><td>10.45</td><td>1</td>
-                        <tr><td>Bacon Bap</td><td>632</td><td>Dry</td><td>6</td><td>42.9</td><td>1</td>
-                        <tr><td>Smashed Avo Toast</td><td>633</td><td>Dry</td><td>7</td><td>69.3</td><td>1</td>
-                        <tr><td>Eggs Your Way</td><td>635</td><td>Dry</td><td>3</td><td>21.45</td><td>1</td>
-                        <tr><td>Fried</td><td>638</td><td>Dry</td><td>6</td><td>0</td><td>0</td>
-                        <tr><td>Scrambled</td><td>639</td><td>Dry</td><td>3</td><td>0</td><td>0</td>
-                        <tr><td>Poached</td><td>640</td><td>Dry</td><td>6</td><td>0</td><td>0</td>
-                        <tr><td>Whitebait</td><td>647</td><td>Dry</td><td>1</td><td>8.8</td><td>1</td>
-                        <tr><td>Gouffre Club</td><td>650</td><td>Dry</td><td>5</td><td>79.75</td><td>1</td>
-                        <tr><td>Gsy Crab Ciabatta</td><td>655</td><td>Dry</td><td>7</td><td>107.8</td><td>1</td>
-                        <tr><td>Soup</td><td>658</td><td>Dry</td><td>6</td><td>59.4</td><td>1</td>
-                        <tr><td>Crab Avocado Salad</td><td>664</td><td>Dry</td><td>5</td><td>104.5</td><td>1</td>
-                        <tr><td>Caesar Salad</td><td>665</td><td>Dry</td><td>2</td><td>35.2</td><td>1</td>
-                        <tr><td>Fish & Chips</td><td>668</td><td>Dry</td><td>6</td><td>118.8</td><td>1</td>
-                        <tr><td>Burger</td><td>670</td><td>Dry</td><td>6</td><td>112.2</td><td>1</td>
-                        <tr><td>Sea Bass</td><td>671</td><td>Dry</td><td>10</td><td>242</td><td>1</td>
-                        <tr><td>Moules Mariniere</td><td>673</td><td>Dry</td><td>2</td><td>37.4</td><td>1</td>
-                        <tr><td>Vegan Burger</td><td>675</td><td>Dry</td><td>1</td><td>18.7</td><td>1</td>
-                        <tr><td>Jersey Royal Potatoes</td><td>677</td><td>Dry</td><td>0</td><td>0</td><td>0</td>
-                        <tr><td>Chunky Chips</td><td>678</td><td>Dry</td><td>3</td><td>16.5</td><td>1</td>
-                        <tr><td>Truffle Fries</td><td>680</td><td>Dry</td><td>3</td><td>19.8</td><td>1</td>
-                        <tr><td>Jam</td><td>683</td><td>Dry</td><td>5</td><td>0</td><td>0</td>
-                        <tr><td>Butter</td><td>684</td><td>Dry</td><td>4</td><td>0</td><td>0</td>
-                        <tr><td>Cream</td><td>685</td><td>Dry</td><td>4</td><td>0</td><td>0</td>
-                        <tr><td>Fruit</td><td>688</td><td>Dry</td><td>5</td><td>0</td><td>0</td>
-                        <tr><td>Scones x1</td><td>690</td><td>Dry</td><td>5</td><td>17.5</td><td>1</td>
-                        <tr><td>Croissant 5.00</td><td>692</td><td>Dry</td><td>3</td><td>15.5</td><td>1</td>
-                        <tr><td>Croissant 7.00</td><td>693</td><td>Dry</td><td>0</td><td>0</td><td>0</td>
-                        <tr><td>Fries</td><td>694</td><td>Dry</td><td>7</td><td>38.5</td><td>1</td>
-                        <tr><td>Add Chicken</td><td>695</td><td>Dry</td><td>1</td><td>5.5</td><td>1</td>
-                        <tr><td>NO ADD</td><td>696</td><td>Dry</td><td>3</td><td>0</td><td>0</td>
-                        <tr><td>Double Espresso</td><td>698</td><td>Dry</td><td>5</td><td>13.77</td><td>1</td>
-                        <tr><td>Roast Sirloin Beef</td><td>703</td><td>Dry</td><td>20</td><td>478.57</td><td>1</td>
-                        <tr><td>Beef Ciabatta</td><td>709</td><td>Dry</td><td>3</td><td>46.2</td><td>1</td>
-                        <tr><td>Soup Of the Day</td><td>716</td><td>Dry</td><td>7</td><td>60</td><td>1</td>
-                        <tr><td>Crab Benedict</td><td>734</td><td>Dry</td><td>1</td><td>13.75</td><td>1</td>
-                        <tr><td>Ham, Cheese, Mango Sourd</td><td>737</td><td>Dry</td><td>0</td><td>0</td><td>0</td>
-                        <tr><td>Black Pudding Bap</td><td>738</td><td>Dry</td><td>1</td><td>7.15</td><td>1</td>
-                        <tr><td>Pan Seared Sea Bass</td><td>755</td><td>Dry</td><td>3</td><td>72.45</td><td>1</td>
-                        <tr><td>Add Hash Brown</td><td>761</td><td>Dry</td><td>1</td><td>2.75</td><td>1</td>
-                        <tr><td>Croissant</td><td>764</td><td>Dry</td><td>1</td><td>0</td><td>0</td>
-                        <tr><td>Brown Toast</td><td>765</td><td>Dry</td><td>1</td><td>0</td><td>0</td>
-                        <tr><td>300g Ribeye</td><td>766</td><td>Dry</td><td>3</td><td>118.8</td><td>1</td>
-                        <tr><td>350g Sirloin</td><td>767</td><td>Dry</td><td>1</td><td>38.5</td><td>1</td>
-                        <tr><td>Side Salad</td><td>769</td><td>Dry</td><td>2</td><td>11</td><td>1</td>
-                        <tr><td>Flatbread Truffle Mushro</td><td>770</td><td>Dry</td><td>2</td><td>22</td><td>1</td>
-                        <tr><td>Fries</td><td>772</td><td>Dry</td><td>9</td><td>0</td><td>0</td>
-                        <tr><td>Chunky Chips</td><td>773</td><td>Dry</td><td>8</td><td>0</td><td>0</td>
-                        <tr><td>Lamb Koftas</td><td>775</td><td>Dry</td><td>2</td><td>28.6</td><td>1</td>
-                        <tr><td>Polpetti</td><td>776</td><td>Dry</td><td>4</td><td>35.2</td><td>1</td>
-                        <tr><td>Salt Cod Croqs</td><td>779</td><td>Dry</td><td>4</td><td>35.2</td><td>1</td>
-                        <tr><td>Prawn Toast</td><td>780</td><td>Dry</td><td>1</td><td>8.8</td><td>1</td>
-                        <tr><td>Gambas Pil Pil</td><td>781</td><td>Dry</td><td>1</td><td>8.8</td><td>1</td>
-                        <tr><td>Squid</td><td>782</td><td>Dry</td><td>4</td><td>39.6</td><td>1</td>
-                        <tr><td>Mex Corn Ribs</td><td>783</td><td>Dry</td><td>1</td><td>6.6</td><td>1</td>
-                        <tr><td>Pan Con Tomate</td><td>785</td><td>Dry</td><td>1</td><td>6.6</td><td>1</td>
-                        <tr><td>Patatas Bravas</td><td>786</td><td>Dry</td><td>5</td><td>33</td><td>1</td>
-                        <tr><td>Aubergine & Miso</td><td>787</td><td>Dry</td><td>3</td><td>23.1</td><td>1</td>
-                        <tr><td>Olives</td><td>788</td><td>Dry</td><td>1</td><td>8.25</td><td>1</td>
-                        <tr><td>Mushroom Quesadilla</td><td>789</td><td>Dry</td><td>3</td><td>26.4</td><td>1</td>
-                        <tr><td>Hummus</td><td>790</td><td>Dry</td><td>4</td><td>30.8</td><td>1</td>
-                        <tr><td>Peppercorn Sauce</td><td>793</td><td>Dry</td><td>3</td><td>0</td><td>0</td>
-                        <tr><td>Le Gouffre Bfast Burrito</td><td>833</td><td>Dry</td><td>6</td><td>59.4</td><td>1</td>
-                        <tr><td>Potato Galette</td><td>834</td><td>Dry</td><td>1</td><td>10.45</td><td>1</td>
-                        <tr><td>Kippers on Toast</td><td>835</td><td>Dry</td><td>3</td><td>31.35</td><td>1</td>
-                        <tr><td>Chocolate Brownie</td><td>836</td><td>Dry</td><td>3</td><td>30.85</td><td>1</td>
-                        <tr><td>Apple Lattice Pie</td><td>837</td><td>Dry</td><td>4</td><td>42.8</td><td>1</td>
-                        <tr><td>Seasonal Crumble</td><td>838</td><td>Dry</td><td>3</td><td>30.85</td><td>1</td>
-                        <tr><td>Sticky Toffee Pudding</td><td>839</td><td>Dry</td><td>2</td><td>21.9</td><td>1</td>
-                        <tr><td>Affogato</td><td>840</td><td>Dry</td><td>2</td><td>15.4</td><td>1</td>
-                        <tr><td>Ice Cream</td><td>842</td><td>Dry</td><td>3</td><td>0</td><td>0</td>
-                        <tr><td>Vanilla Ice Cream</td><td>843</td><td>Dry</td><td>1</td><td>3.85</td><td>1</td>
-                        <tr><td>Chocolate Ice Cream</td><td>844</td><td>Dry</td><td>1</td><td>3.85</td><td>1</td>
-                        <tr><td>Lemon Sorbet</td><td>847</td><td>Dry</td><td>2</td><td>7.35</td><td>1</td>
-                        <tr><td>Mango Sorbet</td><td>848</td><td>Dry</td><td>1</td><td>3.85</td><td>1</td>
-                        <tr><td>Kids Eggs on Toast</td><td>850</td><td>Dry</td><td>1</td><td>7.15</td><td>1</td>
-                        <tr><td>Kids Burger</td><td>852</td><td>Dry</td><td>2</td><td>21.9</td><td>1</td>
-                        <tr><td>Kids Fish Goujons</td><td>854</td><td>Dry</td><td>1</td><td>10.95</td><td>1</td>
-                        <tr><td>Kids Chicken Goujons</td><td>855</td><td>Dry</td><td>1</td><td>10.95</td><td>1</td>
-                        <tr><td>Duck Liver Parfait</td><td>857</td><td>Dry</td><td>1</td><td>7.7</td><td>1</td>
-                        <tr><td>Prawn Sesame Toast</td><td>858</td><td>Dry</td><td>3</td><td>26.4</td><td>1</td>
-                        <tr><td>Garlic Mushrooms</td><td>859</td><td>Dry</td><td>6</td><td>59.4</td><td>1</td>
-                        <tr><td>Jacket P Cheddar & Beans</td><td>860</td><td>Dry</td><td>3</td><td>33</td><td>1</td>
-                        <tr><td>Jacket P Tuna Mayo</td><td>861</td><td>Dry</td><td>4</td><td>48.4</td><td>1</td>
-                        <tr><td>Jacket P Crab Mayo Chive</td><td>863</td><td>Dry</td><td>1</td><td>15.4</td><td>1</td>
-                        <tr><td>Jacket P Ve Chilli </td><td>864</td><td>Dry</td><td>2</td><td>24.2</td><td>1</td>
-                        <tr><td>Devilled Kidneys</td><td>865</td><td>Dry</td><td>2</td><td>26.4</td><td>1</td>
-                        <tr><td>Garlic & Chilli Prawns</td><td>866</td><td>Dry</td><td>3</td><td>39.6</td><td>1</td>
-                        <tr><td>Beef & Ale Pie</td><td>868</td><td>Dry</td><td>4</td><td>96.8</td><td>1</td>
-                        <tr><td>Chick Ham & Leek Pie</td><td>869</td><td>Dry</td><td>1</td><td>24.2</td><td>1</td>
-                        <tr><td>Fisherman's Pie</td><td>870</td><td>Dry</td><td>2</td><td>48.4</td><td>1</td>
-                        <tr><td>Steak & Kidney Pie</td><td>871</td><td>Dry</td><td>1</td><td>24.2</td><td>1</td>
-                        <tr><td>Sourdough Toast</td><td>872</td><td>Dry</td><td>2</td><td>4.4</td><td>1</td>
-                        <tr><td>Panache of Veg</td><td>873</td><td>Dry</td><td>2</td><td>11</td><td>1</td>
-                        <tr><td>Soup Of The Day</td><td>874</td><td>Dry</td><td>6</td><td>0</td><td>0</td>
-                        <tr><td>Duck Pate</td><td>875</td><td>Dry</td><td>9</td><td>0</td><td>0</td>
-                        <tr><td>Devilled Kidney on Toast</td><td>876</td><td>Dry</td><td>5</td><td>0</td><td>0</td>
-                        <tr><td>Mushroom Flatbread</td><td>877</td><td>Dry</td><td>11</td><td>0</td><td>0</td>
-                        <tr><td>Moules Mariniere</td><td>878</td><td>Dry</td><td>6</td><td>0</td><td>0</td>
-                        <tr><td>Beef Bourguignon</td><td>879</td><td>Dry</td><td>15</td><td>0</td><td>0</td>
-                        <tr><td>Chicken Coq au Vin</td><td>880</td><td>Dry</td><td>6</td><td>0</td><td>0</td>
-                        <tr><td>Jacket Potato</td><td>881</td><td>Dry</td><td>6</td><td>0</td><td>0</td>
-                        <tr><td>Cheese & Beans</td><td>882</td><td>Dry</td><td>2</td><td>0</td><td>0</td>
-                        <tr><td>Vegan Chili Con Carne</td><td>884</td><td>Dry</td><td>0</td><td>0</td><td>0</td>
-                        <tr><td>Crab & Lemon Mayo</td><td>885</td><td>Dry</td><td>3</td><td>0</td><td>0</td>
-                        <tr><td>BBQ Chicken</td><td>886</td><td>Dry</td><td>1</td><td>0</td><td>0</td>
-                        <tr><td>White Chocolate Mousse</td><td>887</td><td>Dry</td><td>2</td><td>0</td><td>0</td>
-                        <tr><td>Sticky Toffee Pudding</td><td>888</td><td>Dry</td><td>3</td><td>0</td><td>0</td>
-                        <tr><td>Chocolate Brownie</td><td>889</td><td>Dry</td><td>3</td><td>0</td><td>0</td>
-                        <tr><td>Tennerfest 2 Course</td><td>890</td><td>Dry</td><td>34</td><td>740</td><td>1</td>
-                        <tr><td>Tennerfest 3 Course</td><td>891</td><td>Dry</td><td>3</td><td>85.8</td><td>1</td>
-                        
+                      <tr>
+                        <td>Name 1</td>
+                        <td>JK-0994</td>
+                        <td>1st Jan 1970</td>
+                        <td>£25</td>
+                      </tr>
+                      <tr>
+                        <td>Name 2</td>
+                        <td>JK-08894</td>
+                        <td>1st Jan 1970</td>
+                        <td>£25</td>
+                      </tr>
+                      <tr>
+                        <td>Name 3</td>
+                        <td>JK-09984</td>
+                        <td>1st Jan 1970</td>
+                        <td>£25</td>
+                      </tr>
+                      <tr>
+                        <td>Name 4</td>
+                        <td>JK-9754</td>
+                        <td>1st Jan 1970</td>
+                        <td>£25</td>
+                      </tr>
                     </tbody>
                 </table>
               </div>
@@ -725,7 +531,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="lineDetailsRW" tabindex="-1" aria-labelledby="scrollingLongModalLabel2" aria-hidden="true">
+    <div class="modal fade" id="lineDetailsRW" tabindex="-1" aria-labelledby="lineDetailsRWLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
@@ -772,7 +578,7 @@
           </div>
       </div>
   </div>
-  <div class="modal fade" id="lineDetailsRD" tabindex="-1" aria-labelledby="scrollingLongModalLabel2" aria-hidden="true">
+  <div class="modal fade" id="lineDetailsRD" tabindex="-1" aria-labelledby="lineDetailsRDLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
@@ -819,6 +625,24 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="shiftDateConfirm" tabindex="-1" aria-labelledby="shiftDateConfirmLabel" area-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+        
+            <h5 class="modal-title" id="scrollingLongModalLabel2">Confirm Shift Date</h5><button class="btn btn-close p-1" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <select class="form-select">
+                <option selected="">Select Shift Date</option>
+                <option value="1">23/10/2024</option>
+                <option value="2">24/10/2024</option>
+              </select>
+
+        </div>  
+        <div class="modal-footer">
+            <a class="btn btn-outline-primary" href="ConfirmationPage.html" type="button" >Confirm</a>
+        </div>
 
     </div>
       

@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" data-navigation-type="default" data-navbar-horizontal-shape="default">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Phoenix</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="../assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="../assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="../vendors/simplebar/simplebar.min.js"></script>
+    <script src="../assets/js/config.js"></script>
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="../vendors/simplebar/simplebar.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="../assets/css/theme-rtl.css" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="../assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
+    <link href="../assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="../assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <script>
+      var phoenixIsRTL = window.config.config.phoenixIsRTL;
+      if (phoenixIsRTL) {
+        var linkDefault = document.getElementById('style-default');
+        var userLinkDefault = document.getElementById('user-style-default');
+        linkDefault.setAttribute('disabled', true);
+        userLinkDefault.setAttribute('disabled', true);
+        document.querySelector('html').setAttribute('dir', 'rtl');
+      } else {
+        var linkRTL = document.getElementById('style-rtl');
+        var userLinkRTL = document.getElementById('user-style-rtl');
+        linkRTL.setAttribute('disabled', true);
+        userLinkRTL.setAttribute('disabled', true);
+      }
+    </script>
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <nav class="navbar navbar-vertical navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
+          <!-- scrollbar removed-->
+          <div class="navbar-vertical-content">
+            <ul class="navbar-nav flex-column" id="navbarVerticalNav">
+              <li class="nav-item">
+                <!-- parent pages-->
+                <div class="nav-item-wrapper"><a class="nav-link dropdown-indicator label-1" href="#nv-home" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="nv-home">
+                    <div class="d-flex align-items-center">
+                      <div class="dropdown-indicator-icon-wrapper"><span class="fas fa-caret-right dropdown-indicator-icon"></span></div><span class="nav-link-icon"><span data-feather="pie-chart"></span></span><span class="nav-link-text">Home</span><span class="fa-solid fa-circle text-info ms-1 new-page-indicator" style="font-size: 6px"></span>
+                    </div>
+                  </a>
+                  <div class="parent-wrapper label-1">
+                    <ul class="nav collapse parent" data-bs-parent="#navbarVerticalCollapse" id="nv-home">
+                      <li class="collapsed-nav-item-title d-none">Home
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="index.html">
+                          <div class="d-flex align-items-center"><span class="nav-link-text">E commerce</span>
+                          </div>
+                        </a>
+                        <!-- more inner pages-->
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="dashboard/project-management.html">
+                          <div class="d-flex align-items-center"><span class="nav-link-text">Project management</span>
+                          </div>
+                        </a>
+                        <!-- more inner pages-->
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="dashboard/crm.html">
+                          <div class="d-flex align-items-center"><span class="nav-link-text">CRM</span>
+                          </div>
+                        </a>
+                        <!-- more inner pages-->
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="dashboard/travel-agency.html">
+                          <div class="d-flex align-items-center"><span class="nav-link-text">Travel agency</span><span class="badge ms-2 badge badge-phoenix badge-phoenix-warning ">New</span>
+                          </div>
+                        </a>
+                        <!-- more inner pages-->
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="apps/social/feed.html">
+                          <div class="d-flex align-items-center"><span class="nav-link-text">Social feed</span>
+                          </div>
+                        </a>
+                        <!-- more inner pages-->
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-vertical-footer">
+          <button class="btn navbar-vertical-toggle border-0 fw-semibold w-100 white-space-nowrap d-flex align-items-center"><span class="uil uil-left-arrow-to-left fs-8"></span><span class="uil uil-arrow-from-right fs-8"></span><span class="navbar-vertical-footer-text ms-2">Collapsed View</span></button>
+        </div>
+      </nav>
+      <nav class="navbar navbar-top fixed-top navbar-expand" id="navbarDefault">
+        <div class="collapse navbar-collapse justify-content-between">
+          <div class="navbar-logo">
+
+            <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
+            <a class="navbar-brand me-1 me-sm-3" href="index.html">
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
+                  <h5 class="logo-text ms-2 d-none d-sm-block">phoenix</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="search-box navbar-top-search-box d-none d-lg-block" data-list='{"valueNames":["title"]}' style="width:25rem;">
+            <form class="position-relative" data-bs-toggle="search" data-bs-display="static">
+              <input class="form-control search-input fuzzy-search rounded-pill form-control-sm" type="search" placeholder="Search..." aria-label="Search" />
+              <span class="fas fa-search search-box-icon"></span>
+
+            </form>
+            <div class="btn-close position-absolute end-0 top-50 translate-middle cursor-pointer shadow-none" data-bs-dismiss="search">
+              <button class="btn btn-link p-0" aria-label="Close"></button>
+            </div>
+
+          </div>
+          <ul class="navbar-nav navbar-nav-icons flex-row">
+            <li class="nav-item">
+              <div class="theme-control-toggle fa-icon-wait px-2">
+                <input class="form-check-input ms-0 theme-control-toggle-input" type="checkbox" data-theme-control="phoenixTheme" value="dark" id="themeControlToggle" />
+                <label class="mb-0 theme-control-toggle-label theme-control-toggle-light" for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Switch theme" style="height:32px;width:32px;"><span class="icon" data-feather="moon"></span></label>
+                <label class="mb-0 theme-control-toggle-label theme-control-toggle-dark" for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Switch theme" style="height:32px;width:32px;"><span class="icon" data-feather="sun"></span></label>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" style="min-width: 2.25rem" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside"><span class="d-block" style="height:20px;width:20px;"><span data-feather="bell" style="height:20px;width:20px;"></span></span></a>
+
+              <div class="dropdown-menu dropdown-menu-end notification-dropdown-menu py-0 shadow border navbar-dropdown-caret" id="navbarDropdownNotfication" aria-labelledby="navbarDropdownNotfication">
+                <div class="card position-relative border-0">
+                  <div class="card-header p-2">
+                    <div class="d-flex justify-content-between">
+                      <h5 class="text-body-emphasis mb-0">Notifications</h5>
+                      <button class="btn btn-link p-0 fs-9 fw-normal" type="button">Mark all as read</button>
+                    </div>
+                  </div>
+                  <div class="card-body p-0">
+                    <div class="scrollbar-overlay" style="height: 27rem;">
+                      <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                          <div class="d-flex">
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" />
+                            </div>
+                            <div class="flex-1 me-sm-3">
+                              <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
+                              <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
+                              <p class="text-body-secondary fs-9 mb-0"><span class="me-1 fas fa-clock"></span><span class="fw-bold">10:41 AM </span>August 7,2021</p>
+                            </div>
+                          </div>
+                          <div class="dropdown notification-dropdown">
+                            <button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10 text-body"></span></button>
+                            <div class="dropdown-menu py-2"><a class="dropdown-item" href="#!">Mark as unread</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                          <div class="d-flex">
+                            <div class="avatar avatar-m status-online me-3">
+                              <div class="avatar-name rounded-circle"><span>J</span></div>
+                            </div>
+                            <div class="flex-1 me-sm-3">
+                              <h4 class="fs-9 text-body-emphasis">Jane Foster</h4>
+                              <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>📅</span>Created an event.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">20m</span></p>
+                              <p class="text-body-secondary fs-9 mb-0"><span class="me-1 fas fa-clock"></span><span class="fw-bold">10:20 AM </span>August 7,2021</p>
+                            </div>
+                          </div>
+                          <div class="dropdown notification-dropdown">
+                            <button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10 text-body"></span></button>
+                            <div class="dropdown-menu py-2"><a class="dropdown-item" href="#!">Mark as unread</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                          <div class="d-flex">
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" />
+                            </div>
+                            <div class="flex-1 me-sm-3">
+                              <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
+                              <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
+                              <p class="text-body-secondary fs-9 mb-0"><span class="me-1 fas fa-clock"></span><span class="fw-bold">9:30 AM </span>August 7,2021</p>
+                            </div>
+                          </div>
+                          <div class="dropdown notification-dropdown">
+                            <button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10 text-body"></span></button>
+                            <div class="dropdown-menu py-2"><a class="dropdown-item" href="#!">Mark as unread</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                          <div class="d-flex">
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" />
+                            </div>
+                            <div class="flex-1 me-sm-3">
+                              <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
+                              <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
+                              <p class="text-body-secondary fs-9 mb-0"><span class="me-1 fas fa-clock"></span><span class="fw-bold">9:11 AM </span>August 7,2021</p>
+                            </div>
+                          </div>
+                          <div class="dropdown notification-dropdown">
+                            <button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10 text-body"></span></button>
+                            <div class="dropdown-menu py-2"><a class="dropdown-item" href="#!">Mark as unread</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                          <div class="d-flex">
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" />
+                            </div>
+                            <div class="flex-1 me-sm-3">
+                              <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
+                              <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
+                              <p class="text-body-secondary fs-9 mb-0"><span class="me-1 fas fa-clock"></span><span class="fw-bold">10:58 PM </span>August 7,2021</p>
+                            </div>
+                          </div>
+                          <div class="dropdown notification-dropdown">
+                            <button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10 text-body"></span></button>
+                            <div class="dropdown-menu py-2"><a class="dropdown-item" href="#!">Mark as unread</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                          <div class="d-flex">
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" />
+                            </div>
+                            <div class="flex-1 me-sm-3">
+                              <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
+                              <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
+                              <p class="text-body-secondary fs-9 mb-0"><span class="me-1 fas fa-clock"></span><span class="fw-bold">10:18 AM </span>August 7,2021</p>
+                            </div>
+                          </div>
+                          <div class="dropdown notification-dropdown">
+                            <button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10 text-body"></span></button>
+                            <div class="dropdown-menu py-2"><a class="dropdown-item" href="#!">Mark as unread</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer p-0 border-top border-translucent border-0">
+                    <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="pages/notifications.html">Notification history</a></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" id="navbarDropdownNindeDots" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" data-bs-auto-close="outside" aria-expanded="false">
+                <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+                  <circle cx="2" cy="8" r="2" fill="currentColor"></circle>
+                  <circle cx="2" cy="14" r="2" fill="currentColor"></circle>
+                  <circle cx="8" cy="8" r="2" fill="currentColor"></circle>
+                  <circle cx="8" cy="14" r="2" fill="currentColor"></circle>
+                  <circle cx="14" cy="8" r="2" fill="currentColor"></circle>
+                  <circle cx="14" cy="14" r="2" fill="currentColor"></circle>
+                  <circle cx="8" cy="2" r="2" fill="currentColor"></circle>
+                  <circle cx="14" cy="2" r="2" fill="currentColor"></circle>
+                </svg></a>
+
+              <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-nine-dots shadow border" aria-labelledby="navbarDropdownNindeDots">
+                <div class="card bg-body-emphasis position-relative border-0">
+                  <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
+                    <div class="row text-center align-items-center gx-0 gy-0">
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
+                        </a></div>
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                          <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
+                        </a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+                <div class="avatar avatar-l ">
+                  <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
+
+                </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
+                <div class="card position-relative border-0">
+                  <div class="card-body p-0">
+                    <div class="text-center pt-4 pb-3">
+                      <div class="avatar avatar-xl ">
+                        <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+
+                      </div>
+                      <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
+                    </div>
+                    <div class="mb-3 mx-3">
+                      <input class="form-control form-control-sm" id="statusUpdateInput" type="text" placeholder="Update your status" />
+                    </div>
+                  </div>
+                  <div class="overflow-auto scrollbar" style="height: 10rem;">
+                    <ul class="nav d-flex flex-column mb-2 pb-1">
+                      <li class="nav-item"><a class="nav-link px-3 d-block" href="#!"> <span class="me-2 text-body align-bottom" data-feather="user"></span><span>Profile</span></a></li>
+                      <li class="nav-item"><a class="nav-link px-3 d-block" href="#!"><span class="me-2 text-body align-bottom" data-feather="pie-chart"></span>Dashboard</a></li>
+                      <li class="nav-item"><a class="nav-link px-3 d-block" href="#!"> <span class="me-2 text-body align-bottom" data-feather="lock"></span>Posts &amp; Activity</a></li>
+                      <li class="nav-item"><a class="nav-link px-3 d-block" href="#!"> <span class="me-2 text-body align-bottom" data-feather="settings"></span>Settings &amp; Privacy </a></li>
+                      <li class="nav-item"><a class="nav-link px-3 d-block" href="#!"> <span class="me-2 text-body align-bottom" data-feather="help-circle"></span>Help Center</a></li>
+                      <li class="nav-item"><a class="nav-link px-3 d-block" href="#!"> <span class="me-2 text-body align-bottom" data-feather="globe"></span>Language</a></li>
+                    </ul>
+                  </div>
+                  <div class="card-footer p-0 border-top border-translucent">
+                    <ul class="nav d-flex flex-column my-3">
+                      <li class="nav-item"><a class="nav-link px-3 d-block" href="#!"> <span class="me-2 text-body align-bottom" data-feather="user-plus"></span>Add another account</a></li>
+                    </ul>
+                    <hr />
+                    <div class="px-3"> <a class="btn btn-phoenix-secondary d-flex flex-center w-100" href="#!"> <span class="me-2" data-feather="log-out"> </span>Sign out</a></div>
+                    <div class="my-2 text-center fw-bold fs-10 text-body-quaternary"><a class="text-body-quaternary me-1" href="#!">Privacy policy</a>&bull;<a class="text-body-quaternary mx-1" href="#!">Terms</a>&bull;<a class="text-body-quaternary ms-1" href="#!">Cookies</a></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="content">
+
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Group</th>
+                <th scope="col">Department</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr><th scope="row">1</th><td>Eggs Benedict</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">2</th><td>Eggs Royale</td><td>Dry</td><td>1</td><td>12.5</td></tr>
+<tr><th scope="row">3</th><td>Eggs Florentine</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">4</th><td>Avocado on Toast</td><td>Dry</td><td>1</td><td>7</td></tr>
+<tr><th scope="row">5</th><td>French Toast</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">6</th><td>Eggs on Toast</td><td>Dry</td><td>1</td><td>6</td></tr>
+<tr><th scope="row">7</th><td>Breakfast Sandwich</td><td>Dry</td><td>1</td><td>6</td></tr>
+<tr><th scope="row">8</th><td>Le Gouffre Breakfast</td><td>Dry</td><td>1</td><td>13.5</td></tr>
+<tr><th scope="row">9</th><td>Veggie Breakfast</td><td>Dry</td><td>1</td><td>13.5</td></tr>
+<tr><th scope="row">10</th><td>American Breakfast</td><td>Dry</td><td>1</td><td>12</td></tr>
+<tr><th scope="row">11</th><td>American Pancakes</td><td>Dry</td><td>1</td><td>9</td></tr>
+<tr><th scope="row">12</th><td>Granola Compote</td><td>Dry</td><td>1</td><td>7</td></tr>
+<tr><th scope="row">13</th><td>Toast & Jam</td><td>Dry</td><td>1</td><td>5</td></tr>
+<tr><th scope="row">14</th><td>Chilli Chick Wrap</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">15</th><td>Fajita Wrap</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">16</th><td>Feta & Veg Wrap</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">17</th><td>Crab & Avo Ciabatta</td><td>Dry</td><td>2</td><td>13</td></tr>
+<tr><th scope="row">18</th><td>Tuna Melt Ciabatta</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">19</th><td>Ham & Cheese Ciabatta</td><td>Dry</td><td>2</td><td>10</td></tr>
+<tr><th scope="row">20</th><td>Brie & Red Onion Jam Cia</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">21</th><td>Crab Avo Salad</td><td>Dry</td><td>2</td><td>19</td></tr>
+<tr><th scope="row">22</th><td>Caesar Salad</td><td>Dry</td><td>2</td><td>16</td></tr>
+<tr><th scope="row">23</th><td>Super Salad</td><td>Dry</td><td>2</td><td>14</td></tr>
+<tr><th scope="row">24</th><td>Salmon Nicoise Salad</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">25</th><td>Waldorf Salad</td><td>Dry</td><td>2</td><td>14</td></tr>
+<tr><th scope="row">26</th><td>Soup</td><td>Dry</td><td>2</td><td>7</td></tr>
+<tr><th scope="row">27</th><td>Beef Lasagne</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">28</th><td>Spinach & Ricotta Tortel</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">29</th><td>Beefburger</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">30</th><td>Cajun Chicken Burger</td><td>Dry</td><td>2</td><td>15</td></tr>
+<tr><th scope="row">31</th><td>Falafel & Spinach Burger</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">32</th><td>Linguini Pescatore</td><td>Dry</td><td>2</td><td>19</td></tr>
+<tr><th scope="row">33</th><td>Fish & Chips</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">34</th><td>Calamari</td><td>Dry</td><td>2</td><td>8</td></tr>
+<tr><th scope="row">35</th><td>Whitebait</td><td>Dry</td><td>2</td><td>8</td></tr>
+<tr><th scope="row">36</th><td>Ciabatta & Olives</td><td>Dry</td><td>2</td><td>6</td></tr>
+<tr><th scope="row">37</th><td>Hummus & Pitta</td><td>Dry</td><td>2</td><td>6</td></tr>
+<tr><th scope="row">38</th><td>Ciabatta & Oil</td><td>Dry</td><td>2</td><td>4</td></tr>
+<tr><th scope="row">39</th><td>Side Salad</td><td>Dry</td><td>2</td><td>5</td></tr>
+<tr><th scope="row">40</th><td>Olives</td><td>Dry</td><td>2</td><td>4</td></tr>
+<tr><th scope="row">41</th><td>Truffle Fries</td><td>Dry</td><td>2</td><td>6.5</td></tr>
+<tr><th scope="row">42</th><td>Chunky Chips</td><td>Dry</td><td>2</td><td>5</td></tr>
+<tr><th scope="row">43</th><td>Sweet Potato Fries</td><td>Dry</td><td>2</td><td>4</td></tr>
+<tr><th scope="row">44</th><td>Fries</td><td>Dry</td><td>2</td><td>5</td></tr>
+<tr><th scope="row">45</th><td>Scallops</td><td>Dry</td><td>3</td><td>9</td></tr>
+<tr><th scope="row">46</th><td>Crab Avo Tian</td><td>Dry</td><td>3</td><td>9</td></tr>
+<tr><th scope="row">47</th><td>Duck & Pigeon Salad</td><td>Dry</td><td>3</td><td>8</td></tr>
+<tr><th scope="row">48</th><td>Asparagus</td><td>Dry</td><td>3</td><td>6</td></tr>
+<tr><th scope="row">49</th><td>Brie & Red Onion Tartlet</td><td>Dry</td><td>3</td><td>6</td></tr>
+<tr><th scope="row">50</th><td>Bruschetta</td><td>Dry</td><td>3</td><td>6</td></tr>
+<tr><th scope="row">51</th><td>Sirloin</td><td>Dry</td><td>3</td><td>22</td></tr>
+<tr><th scope="row">52</th><td>Sea Bass Fillets</td><td>Dry</td><td>3</td><td>19</td></tr>
+<tr><th scope="row">53</th><td>Chicken Supreme</td><td>Dry</td><td>3</td><td>17</td></tr>
+<tr><th scope="row">54</th><td>Parma Chicken Breast</td><td>Dry</td><td>3</td><td>17</td></tr>
+<tr><th scope="row">55</th><td>Polenta & Halloumi</td><td>Dry</td><td>3</td><td>16</td></tr>
+<tr><th scope="row">56</th><td>Mange Tout</td><td>Dry</td><td>3</td><td>4</td></tr>
+<tr><th scope="row">57</th><td>Broccoli</td><td>Dry</td><td>3</td><td>4</td></tr>
+<tr><th scope="row">58</th><td>House Salad</td><td>Dry</td><td>3</td><td>4</td></tr>
+<tr><th scope="row">59</th><td>Spring Rolls</td><td>Dry</td><td>4</td><td>7</td></tr>
+<tr><th scope="row">60</th><td>Roast Beef</td><td>Dry</td><td>4</td><td>19.95</td></tr>
+<tr><th scope="row">61</th><td>Roast Chicken</td><td>Dry</td><td>4</td><td>21.95</td></tr>
+<tr><th scope="row">62</th><td>Veggie Roast</td><td>Dry</td><td>4</td><td>19.95</td></tr>
+<tr><th scope="row">63</th><td>Salmon Fillet</td><td>Dry</td><td>4</td><td>17</td></tr>
+<tr><th scope="row">64</th><td>Ice Cream (Sun)</td><td>Dry</td><td>4</td><td>5</td></tr>
+<tr><th scope="row">65</th><td>Creme Brulee</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">66</th><td>Apple Crumble</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">67</th><td>Lemon Tart</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">68</th><td>Apple Pie</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">69</th><td>Chocolate Torte</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">70</th><td>Raspberry Choc Torte</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">71</th><td>Cheesecake</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">72</th><td>Ice Cream</td><td>Dry</td><td>5</td><td>5</td></tr>
+<tr><th scope="row">73</th><td>Eton Mess</td><td>Dry</td><td>5</td><td>8</td></tr>
+<tr><th scope="row">74</th><td>Cheeseboard</td><td>Dry</td><td>5</td><td>8</td></tr>
+<tr><th scope="row">75</th><td>Breda</td><td>Wet</td><td>6</td><td>5.2</td></tr>
+<tr><th scope="row">76</th><td>Rocquettes</td><td>Wet</td><td>6</td><td>6.2</td></tr>
+<tr><th scope="row">77</th><td>Montys</td><td>Wet</td><td>6</td><td>4.8</td></tr>
+<tr><th scope="row">78</th><td>Camden</td><td>Wet</td><td>6</td><td>6</td></tr>
+<tr><th scope="row">79</th><td>Stow Cloudy</td><td>Wet</td><td>6</td><td>5.2</td></tr>
+<tr><th scope="row">80</th><td>Birra Moretti</td><td>Wet</td><td>6</td><td>6.2</td></tr>
+<tr><th scope="row">81</th><td>Hobgoblin</td><td>Wet</td><td>6</td><td>5</td></tr>
+<tr><th scope="row">82</th><td>Patois</td><td>Wet</td><td>6</td><td>4.9</td></tr>
+<tr><th scope="row">83</th><td>Corona</td><td>Wet</td><td>6</td><td>4.3</td></tr>
+<tr><th scope="row">84</th><td>Peroni</td><td>Wet</td><td>6</td><td>4.5</td></tr>
+<tr><th scope="row">85</th><td>Becks</td><td>Wet</td><td>6</td><td>4.3</td></tr>
+<tr><th scope="row">86</th><td>Guiness Can</td><td>Wet</td><td>6</td><td>4.9</td></tr>
+<tr><th scope="row">87</th><td>Old Mout Kiwi Lime</td><td>Wet</td><td>6</td><td>5.8</td></tr>
+<tr><th scope="row">88</th><td>Old Mout Kiwi Lime</td><td>Wet</td><td>6</td><td>5.8</td></tr>
+<tr><th scope="row">89</th><td>Mahou</td><td>Wet</td><td>6</td><td>5.9</td></tr>
+<tr><th scope="row">90</th><td>Pimms</td><td>Wet</td><td>7</td><td>4.4</td></tr>
+<tr><th scope="row">91</th><td>Campari</td><td>Wet</td><td>7</td><td>4.95</td></tr>
+<tr><th scope="row">92</th><td>Martini Ex Dry</td><td>Wet</td><td>7</td><td>4.95</td></tr>
+<tr><th scope="row">93</th><td>Martini Rosso</td><td>Wet</td><td>7</td><td>4.4</td></tr>
+<tr><th scope="row">94</th><td>Cinzano Bianco</td><td>Wet</td><td>7</td><td>4.4</td></tr>
+<tr><th scope="row">95</th><td>Pernod</td><td>Wet</td><td>7</td><td>4.4</td></tr>
+<tr><th scope="row">96</th><td>Courvoisier VS</td><td>Wet</td><td>7</td><td>6.5</td></tr>
+<tr><th scope="row">97</th><td>Remy Martin VSOP</td><td>Wet</td><td>7</td><td>7.5</td></tr>
+<tr><th scope="row">98</th><td>Marquis Armagnac</td><td>Wet</td><td>7</td><td>6.5</td></tr>
+<tr><th scope="row">99</th><td>Chivas Regal</td><td>Wet</td><td>7</td><td>5.6</td></tr>
+<tr><th scope="row">100</th><td>Pocus LBV</td><td>Wet</td><td>7</td><td>5.5</td></tr>
+<tr><th scope="row">101</th><td>Tio Pepe</td><td>Wet</td><td>7</td><td>5.5</td></tr>
+<tr><th scope="row">102</th><td>Chauffe Coeur Calvados</td><td>Wet</td><td>7</td><td>5.5</td></tr>
+<tr><th scope="row">103</th><td>Creme de Cassis</td><td>Wet</td><td>7</td><td>3.5</td></tr>
+<tr><th scope="row">104</th><td>Volare Raspberry</td><td>Wet</td><td>7</td><td>3</td></tr>
+<tr><th scope="row">105</th><td>Baileys</td><td>Wet</td><td>7</td><td>3.9</td></tr>
+<tr><th scope="row">106</th><td>Drambuie</td><td>Wet</td><td>7</td><td>5.1</td></tr>
+<tr><th scope="row">107</th><td>Cointreau</td><td>Wet</td><td>7</td><td>3.8</td></tr>
+<tr><th scope="row">108</th><td>Grand Marnier</td><td>Wet</td><td>7</td><td>6.85</td></tr>
+<tr><th scope="row">109</th><td>Tia Maria</td><td>Wet</td><td>7</td><td>3.9</td></tr>
+<tr><th scope="row">110</th><td>Disaronno</td><td>Wet</td><td>7</td><td>4</td></tr>
+<tr><th scope="row">111</th><td>Kahlua</td><td>Wet</td><td>7</td><td>4</td></tr>
+<tr><th scope="row">112</th><td>Jager</td><td>Wet</td><td>7</td><td>4</td></tr>
+<tr><th scope="row">113</th><td>Tequila 1800 Reposado</td><td>Wet</td><td>8</td><td>5.5</td></tr>
+<tr><th scope="row">114</th><td>Gordons London Gin</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">115</th><td>Gordons Pink</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">116</th><td>Whitley Neil Orange</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">117</th><td>Whitley Neil Grapefruit</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">118</th><td>Whitley Neil Rhubarb</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">119</th><td>Brockmans</td><td>Wet</td><td>8</td><td>4.9</td></tr>
+<tr><th scope="row">120</th><td>Bombay Sapphire</td><td>Wet</td><td>8</td><td>4.9</td></tr>
+<tr><th scope="row">121</th><td>Tanqueray</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">122</th><td>Bluebottle</td><td>Wet</td><td>8</td><td>5.6</td></tr>
+<tr><th scope="row">123</th><td>Absolut Blue</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">124</th><td>Absolut Citron</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">125</th><td>Grey Goose</td><td>Wet</td><td>8</td><td>5.5</td></tr>
+<tr><th scope="row">126</th><td>Havana Club 3</td><td>Wet</td><td>8</td><td>3.8</td></tr>
+<tr><th scope="row">127</th><td>Havana Club 7</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">128</th><td>Morgans Dark</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">129</th><td>Morgans Spiced</td><td>Wet</td><td>8</td><td>4.5</td></tr>
+<tr><th scope="row">130</th><td>Lambs Navy Rum</td><td>Wet</td><td>8</td><td>3.8</td></tr>
+<tr><th scope="row">131</th><td>Malibu</td><td>Wet</td><td>8</td><td>3.5</td></tr>
+<tr><th scope="row">132</th><td>Bacardi Carta Blanca</td><td>Wet</td><td>8</td><td>4</td></tr>
+<tr><th scope="row">133</th><td>Jamesons</td><td>Wet</td><td>8</td><td>4.4</td></tr>
+<tr><th scope="row">134</th><td>Jack Daniels</td><td>Wet</td><td>8</td><td>4.75</td></tr>
+<tr><th scope="row">135</th><td>Maker's Mark</td><td>Wet</td><td>8</td><td>4.75</td></tr>
+<tr><th scope="row">136</th><td>Glenmorangie</td><td>Wet</td><td>8</td><td>5.15</td></tr>
+<tr><th scope="row">137</th><td>Famous Grouse</td><td>Wet</td><td>8</td><td>4.3</td></tr>
+<tr><th scope="row">138</th><td>Southern Comfort</td><td>Wet</td><td>8</td><td>5.2</td></tr>
+<tr><th scope="row">139</th><td>Archers</td><td>Wet</td><td>8</td><td>4.2</td></tr>
+<tr><th scope="row">140</th><td>Sambuca Black</td><td>Wet</td><td>8</td><td>4.2</td></tr>
+<tr><th scope="row">141</th><td>Water Sparkling 330ml</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">142</th><td>Water Sparkling 750ml</td><td>Wet</td><td>9</td><td>4</td></tr>
+<tr><th scope="row">143</th><td>Water Still 330ml</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">144</th><td>Water Still 750ml</td><td>Wet</td><td>9</td><td>4</td></tr>
+<tr><th scope="row">145</th><td>Appletiser</td><td>Wet</td><td>9</td><td>3.8</td></tr>
+<tr><th scope="row">146</th><td>Coke</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">147</th><td>Diet Coke</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">148</th><td>Fanta</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">149</th><td>Ginger Ale</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">150</th><td>Ginger Beer</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">151</th><td>J2O</td><td>Wet</td><td>9</td><td>3.5</td></tr>
+<tr><th scope="row">152</th><td>Lemonade</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">153</th><td>Fevertree Gold Tonic</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">154</th><td>Orange & Lemonade</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">155</th><td>Orange & Soda</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">156</th><td>Cranberry & Soda</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">157</th><td>Lime & Soda</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">158</th><td>Lemonade Lime</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">159</th><td>Apple Juice</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">160</th><td>Orange Juice</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">161</th><td>Cranberry Juice</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">162</th><td>Pint Soft Drink</td><td>Wet</td><td>9</td><td>4</td></tr>
+<tr><th scope="row">163</th><td>Tomato Juice</td><td>Wet</td><td>9</td><td>3.5</td></tr>
+<tr><th scope="row">164</th><td>FT Aromatic</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">165</th><td>FT Elderflower</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">166</th><td>FT Ginger Beer</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">167</th><td>FT Ginger Ale</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">168</th><td>FT Mediterranean</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">169</th><td>FT Light</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">170</th><td>FT Soda</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">171</th><td>FT Lemonade</td><td>Wet</td><td>9</td><td>2.5</td></tr>
+<tr><th scope="row">172</th><td>Apple Juice</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">173</th><td>Appletiser</td><td>Wet</td><td>10</td><td>2.5</td></tr>
+<tr><th scope="row">174</th><td>Coke</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">175</th><td>Cranberry Juice</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">176</th><td>Diet Coke</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">177</th><td>Fanta</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">178</th><td>FT Aromatic</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">179</th><td>FT Elderflower</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">180</th><td>FT Ginger Ale</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">181</th><td>FT Ginger Beer</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">182</th><td>FT Gold Tonic</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">183</th><td>FT Lemonade</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">184</th><td>FT Light</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">185</th><td>FT Mediterranean</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">186</th><td>FT Soda</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">187</th><td>Ginger Ale</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">188</th><td>Ginger Beer</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">189</th><td>J2O</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">190</th><td>Lemonade</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">191</th><td>Orange Juice</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">192</th><td>Pineapple Juice</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">193</th><td>Tomato Juice</td><td>Wet</td><td>10</td><td>2</td></tr>
+<tr><th scope="row">194</th><td>Americano Black</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">195</th><td>Americano White</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">196</th><td>White Coffee</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">197</th><td>Flat White</td><td>Dry</td><td>11</td><td>3.6</td></tr>
+<tr><th scope="row">198</th><td>Latte</td><td>Dry</td><td>11</td><td>3.4</td></tr>
+<tr><th scope="row">199</th><td>Macchiato</td><td>Dry</td><td>11</td><td>2.4</td></tr>
+<tr><th scope="row">200</th><td>Mocha</td><td>Dry</td><td>11</td><td>3.7</td></tr>
+<tr><th scope="row">201</th><td>Espresso</td><td>Dry</td><td>11</td><td>2.2</td></tr>
+<tr><th scope="row">202</th><td>Hot Chocolate</td><td>Dry</td><td>11</td><td>3.7</td></tr>
+<tr><th scope="row">203</th><td>Tea Breakfast</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">204</th><td>Tea Earl Grey</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">205</th><td>Tea Camomile</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">206</th><td>Tea Decaf</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">207</th><td>Tea Green</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">208</th><td>Tea Lemon Ginger</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">209</th><td>Tea Mint</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">210</th><td>Tea Rooibos</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">211</th><td>Tea Lemon Green</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">212</th><td>Tea Fruit</td><td>Dry</td><td>11</td><td>3.2</td></tr>
+<tr><th scope="row">213</th><td>Extra Shot</td><td>Dry</td><td>11</td><td>0.5</td></tr>
+<tr><th scope="row">214</th><td>Caramel</td><td>Dry</td><td>11</td><td>0.5</td></tr>
+<tr><th scope="row">215</th><td>Vanilla</td><td>Dry</td><td>11</td><td>0.5</td></tr>
+<tr><th scope="row">216</th><td>Hazelnut</td><td>Dry</td><td>11</td><td>0.5</td></tr>
+<tr><th scope="row">217</th><td>Amaretto Coffee</td><td>Dry</td><td>11</td><td>7.95</td></tr>
+<tr><th scope="row">218</th><td>Baileys Coffee</td><td>Dry</td><td>11</td><td>7.95</td></tr>
+<tr><th scope="row">219</th><td>Brandy Coffee</td><td>Dry</td><td>11</td><td>7.95</td></tr>
+<tr><th scope="row">220</th><td>Irish Coffee</td><td>Dry</td><td>11</td><td>7.95</td></tr>
+<tr><th scope="row">221</th><td>Kahlua Coffee</td><td>Dry</td><td>11</td><td>7.95</td></tr>
+<tr><th scope="row">222</th><td>Tia Maria Coffee</td><td>Dry</td><td>11</td><td>7.95</td></tr>
+<tr><th scope="row">223</th><td>Cappucino</td><td>Dry</td><td>11</td><td>3.4</td></tr>
+<tr><th scope="row">224</th><td>Malbec Montanes Mendoza</td><td>Wet</td><td>12</td><td>23.5</td></tr>
+<tr><th scope="row">225</th><td>Merlot Normans Holbrook</td><td>Wet</td><td>12</td><td>24.5</td></tr>
+<tr><th scope="row">226</th><td>Shiraz Beyond the River</td><td>Wet</td><td>12</td><td>20</td></tr>
+<tr><th scope="row">227</th><td>Shiraz Hidden Sea</td><td>Wet</td><td>12</td><td>22</td></tr>
+<tr><th scope="row">228</th><td>Crianza Rioja Santiago</td><td>Wet</td><td>12</td><td>24</td></tr>
+<tr><th scope="row">229</th><td>Pinot Noir Clos Montblan</td><td>Wet</td><td>12</td><td>35</td></tr>
+<tr><th scope="row">230</th><td>Pinot G Serena</td><td>Wet</td><td>12</td><td>22</td></tr>
+<tr><th scope="row">231</th><td>Chard Marcel Martin</td><td>Wet</td><td>12</td><td>22</td></tr>
+<tr><th scope="row">232</th><td>Sauv Blanc Marcel Martin</td><td>Wet</td><td>12</td><td>22</td></tr>
+<tr><th scope="row">233</th><td>Sauv Blanc Three Peaks</td><td>Wet</td><td>12</td><td>22</td></tr>
+<tr><th scope="row">234</th><td>Sauv Blanc Hidden Sea</td><td>Wet</td><td>12</td><td>22</td></tr>
+<tr><th scope="row">235</th><td>Albarino Raimat </td><td>Wet</td><td>12</td><td>39.75</td></tr>
+<tr><th scope="row">236</th><td>Viognier Creation</td><td>Wet</td><td>12</td><td>55.45</td></tr>
+<tr><th scope="row">237</th><td>Pinot Blush Il Caggio</td><td>Wet</td><td>12</td><td>20</td></tr>
+<tr><th scope="row">238</th><td>Bardolino Monte Del Fra</td><td>Wet</td><td>12</td><td>30</td></tr>
+<tr><th scope="row">239</th><td>Zinfandel Discovery Beac</td><td>Wet</td><td>12</td><td>20</td></tr>
+<tr><th scope="row">240</th><td>Rose Minuty</td><td>Wet</td><td>12</td><td>42</td></tr>
+<tr><th scope="row">241</th><td>Prosecco Villa Sandi</td><td>Wet</td><td>12</td><td>28</td></tr>
+<tr><th scope="row">242</th><td>Prosecco 200ml</td><td>Wet</td><td>12</td><td>9.5</td></tr>
+<tr><th scope="row">243</th><td>Rose Prosecco Villa Sand</td><td>Wet</td><td>12</td><td>34.7</td></tr>
+<tr><th scope="row">244</th><td>Prosecco Bottega Gold</td><td>Wet</td><td>12</td><td>44</td></tr>
+<tr><th scope="row">245</th><td>Add Poached Eggs</td><td>Dry</td><td>1</td><td>1.5</td></tr>
+<tr><th scope="row">246</th><td>Add Bacon</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">247</th><td>FRIED egg</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">248</th><td>POACHED egg</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">249</th><td>SCRAMBLED egg</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">250</th><td>WHITE Toast</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">251</th><td>GRANARY Toast</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">252</th><td>SOURDOUGH Toast</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">253</th><td>GLUTEN FREE Toast</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">254</th><td>Add Salmon</td><td>Dry</td><td>1</td><td>2</td></tr>
+<tr><th scope="row">255</th><td>Egg</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">256</th><td>Bacon</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">257</th><td>Sausage</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">258</th><td>Add Fried Egg</td><td>Dry</td><td>1</td><td>1.5</td></tr>
+<tr><th scope="row">259</th><td>Add Sausage</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">260</th><td>Add Chicken</td><td>Dry</td><td>16</td><td>5</td></tr>
+<tr><th scope="row">261</th><td>Add Feta</td><td>Dry</td><td>16</td><td>2</td></tr>
+<tr><th scope="row">262</th><td>Add Cheddar</td><td>Dry</td><td>2</td><td>1.5</td></tr>
+<tr><th scope="row">263</th><td>Add Gorgonzola</td><td>Dry</td><td>2</td><td>1.5</td></tr>
+<tr><th scope="row">264</th><td>Vanilla</td><td>Dry</td><td>5</td><td>0</td></tr>
+<tr><th scope="row">265</th><td>Choc</td><td>Dry</td><td>5</td><td>0</td></tr>
+<tr><th scope="row">266</th><td>Strawberry</td><td>Dry</td><td>5</td><td>0</td></tr>
+<tr><th scope="row">267</th><td>Add Parma Ham</td><td>Dry</td><td>17</td><td>2</td></tr>
+<tr><th scope="row">268</th><td>BLUE</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">269</th><td>RARE</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">270</th><td>MED RARE</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">271</th><td>MED</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">272</th><td>MED WELL</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">273</th><td>WELL DONE</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">274</th><td>BTF</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">275</th><td>Peppercorn Sauce</td><td>Dry</td><td>3</td><td>2</td></tr>
+<tr><th scope="row">276</th><td>Blue Cheese Sauce</td><td>Dry</td><td>3</td><td>2</td></tr>
+<tr><th scope="row">277</th><td>Coffee & Cake</td><td>Dry</td><td>19</td><td>6.5</td></tr>
+<tr><th scope="row">278</th><td>Lemon Cake</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">279</th><td>Carrot & Orange Cake</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">280</th><td>Red Velvet Cake</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">281</th><td>Choc Fudge Cake</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">282</th><td>Cakes Open</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">283</th><td>Open_Food</td><td>Wet</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">284</th><td>Open_Drinks</td><td>Wet</td><td>6</td><td>0</td></tr>
+<tr><th scope="row">285</th><td>Duck</td><td>Dry</td><td>3</td><td>19</td></tr>
+<tr><th scope="row">286</th><td>Halloumi Ciabatta</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">287</th><td>Halloumi</td><td>Dry</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">288</th><td>VEGAN Halloumi</td><td>Dry</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">289</th><td>Nicoise Salad</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">290</th><td>Parmesan Polenta Halloum</td><td>Dry</td><td>2</td><td>14</td></tr>
+<tr><th scope="row">291</th><td>Spinach Ricotta Tortelli</td><td>Dry</td><td>2</td><td>12</td></tr>
+<tr><th scope="row">292</th><td>CHEESE sauce</td><td>Dry</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">293</th><td>TOMATO sauce</td><td>Dry</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">294</th><td>Lemon Sponge</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">295</th><td>Moules Mariniere Frites</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">296</th><td>with MASH</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">297</th><td>with CHIPS</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">300</th><td>Prawn Salad</td><td>Wet</td><td>1</td><td>14</td></tr>
+<tr><th scope="row">301</th><td>Salmon Nicoise</td><td>Wet</td><td>1</td><td>17</td></tr>
+<tr><th scope="row">302</th><td>Polenta & Halloumi</td><td>Wet</td><td>1</td><td>14</td></tr>
+<tr><th scope="row">303</th><td>Specials 4</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">304</th><td>Specials 5</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">305</th><td>Specials 6</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">306</th><td>Specials 7</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">307</th><td>Specials 8</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">308</th><td>Specials 9</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">309</th><td>Specials 10</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">310</th><td>Specials 11</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">311</th><td>Specials 12</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">312</th><td>Specials 13</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">313</th><td>Specials 14</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">314</th><td>Specials 15</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">315</th><td>Specials 16</td><td>Wet</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">316</th><td>Roast Pork</td><td>Dry</td><td>4</td><td>19.95</td></tr>
+<tr><th scope="row">321</th><td>RED Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">322</th><td>BLUE Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">323</th><td>GREEN Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">324</th><td>YELLOW Lacto Free Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">325</th><td>SOYA Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">326</th><td>OAT Milk</td><td>Wet</td><td>18</td><td>0.25</td></tr>
+<tr><th scope="row">327</th><td>COCONUT Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">328</th><td>OTHER WEIRD MILKS</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">329</th><td>COLD Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">330</th><td>HOT Milk</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">331</th><td>DECAF</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">332</th><td>Single Shot</td><td>Wet</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">333</th><td>Apple Lattice</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">334</th><td>Nonna</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">335</th><td>Aperol Spritz</td><td>Wet</td><td>7</td><td>9</td></tr>
+<tr><th scope="row">336</th><td>Caprese</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">337</th><td>Vegan Choc Cake</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">338</th><td>Add Smoked Salmon</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">339</th><td>Add BEANS</td><td>Dry</td><td>1</td><td>1.5</td></tr>
+<tr><th scope="row">340</th><td>Add MUSHROOMS</td><td>Dry</td><td>1</td><td>1.5</td></tr>
+<tr><th scope="row">341</th><td>John Smiths Can</td><td>Wet</td><td>6</td><td>4.9</td></tr>
+<tr><th scope="row">342</th><td>Cappuccino</td><td>Dry</td><td>11</td><td>3.4</td></tr>
+<tr><th scope="row">343</th><td>Pinot Noir</td><td>Wet</td><td>12</td><td>20</td></tr>
+<tr><th scope="row">344</th><td>Nero D'Avola</td><td>Wet</td><td>12</td><td>25</td></tr>
+<tr><th scope="row">345</th><td>Merlot</td><td>Wet</td><td>12</td><td>24.5</td></tr>
+<tr><th scope="row">346</th><td>Malbec</td><td>Wet</td><td>12</td><td>25</td></tr>
+<tr><th scope="row">347</th><td>Primitivo</td><td>Wet</td><td>12</td><td>28.85</td></tr>
+<tr><th scope="row">348</th><td>Valpollicella</td><td>Wet</td><td>12</td><td>35</td></tr>
+<tr><th scope="row">349</th><td>Borgo Del Mandorlo</td><td>Wet</td><td>12</td><td>31</td></tr>
+<tr><th scope="row">350</th><td>Shiraz</td><td>Wet</td><td>12</td><td>28</td></tr>
+<tr><th scope="row">351</th><td>Rioja</td><td>Wet</td><td>12</td><td>29</td></tr>
+<tr><th scope="row">352</th><td>Brouilly</td><td>Wet</td><td>12</td><td>30</td></tr>
+<tr><th scope="row">353</th><td>St. Emilion</td><td>Wet</td><td>12</td><td>31</td></tr>
+<tr><th scope="row">354</th><td>Moulin Dâ¬"Issan</td><td>Wet</td><td>12</td><td>37.8</td></tr>
+<tr><th scope="row">355</th><td>Carmenere  </td><td>Wet</td><td>12</td><td>32</td></tr>
+<tr><th scope="row">356</th><td>Pinotage Painted Wolf</td><td>Wet</td><td>12</td><td>43.35</td></tr>
+<tr><th scope="row">357</th><td>Pinot Noir Elgin</td><td>Wet</td><td>12</td><td>37</td></tr>
+<tr><th scope="row">358</th><td>Chianti Classico</td><td>Wet</td><td>12</td><td>41</td></tr>
+<tr><th scope="row">359</th><td>Chateau Labat           </td><td>Wet</td><td>12</td><td>49</td></tr>
+<tr><th scope="row">360</th><td>Montepulciano</td><td>Wet</td><td>12</td><td>51</td></tr>
+<tr><th scope="row">361</th><td>Ixsir Grande Reserve</td><td>Wet</td><td>12</td><td>79.75</td></tr>
+<tr><th scope="row">362</th><td>Chateau Cantin</td><td>Wet</td><td>12</td><td>71.75</td></tr>
+<tr><th scope="row">363</th><td>Hauts de Tetre</td><td>Wet</td><td>12</td><td>58</td></tr>
+<tr><th scope="row">364</th><td>Pomerol</td><td>Wet</td><td>12</td><td>64</td></tr>
+<tr><th scope="row">365</th><td>Chateauneuf Bastide</td><td>Wet</td><td>12</td><td>84.2</td></tr>
+<tr><th scope="row">366</th><td>St Julien</td><td>Wet</td><td>12</td><td>88.95</td></tr>
+<tr><th scope="row">367</th><td>Barolo DOCG</td><td>Wet</td><td>12</td><td>87.6</td></tr>
+<tr><th scope="row">368</th><td>Guidalberto</td><td>Wet</td><td>12</td><td>112</td></tr>
+<tr><th scope="row">369</th><td>Chateauneuf, Croix du Bo</td><td>Wet</td><td>12</td><td>135</td></tr>
+<tr><th scope="row">370</th><td>Chateau Branaire</td><td>Wet</td><td>12</td><td>150</td></tr>
+<tr><th scope="row">371</th><td>Serena</td><td>Wet</td><td>12</td><td>22</td></tr>
+<tr><th scope="row">372</th><td>Chardonnay Marcel Martin</td><td>Wet</td><td>12</td><td>25.5</td></tr>
+<tr><th scope="row">373</th><td>Portal Calcada</td><td>Wet</td><td>12</td><td>23.5</td></tr>
+<tr><th scope="row">374</th><td>Torrontes</td><td>Wet</td><td>12</td><td>23.5</td></tr>
+<tr><th scope="row">375</th><td>Sauv Blanc</td><td>Wet</td><td>12</td><td>25</td></tr>
+<tr><th scope="row">376</th><td>White Rioja</td><td>Wet</td><td>12</td><td>28</td></tr>
+<tr><th scope="row">377</th><td>Chenin Blanc            </td><td>Wet</td><td>12</td><td>28</td></tr>
+<tr><th scope="row">378</th><td>Muscadet</td><td>Wet</td><td>12</td><td>28</td></tr>
+<tr><th scope="row">379</th><td>Albarino</td><td>Wet</td><td>12</td><td>28</td></tr>
+<tr><th scope="row">380</th><td>Gavi</td><td>Wet</td><td>12</td><td>33</td></tr>
+<tr><th scope="row">381</th><td>Pouilly Fume</td><td>Wet</td><td>12</td><td>35</td></tr>
+<tr><th scope="row">382</th><td>Muscat</td><td>Wet</td><td>12</td><td>38</td></tr>
+<tr><th scope="row">383</th><td>Viognier</td><td>Wet</td><td>12</td><td>42</td></tr>
+<tr><th scope="row">384</th><td>Sancerre</td><td>Wet</td><td>12</td><td>43</td></tr>
+<tr><th scope="row">385</th><td>Chablis</td><td>Wet</td><td>12</td><td>45</td></tr>
+<tr><th scope="row">386</th><td>Pouilly-Fuisse Mommesin</td><td>Wet</td><td>12</td><td>75</td></tr>
+<tr><th scope="row">387</th><td>Cervaro della Sala</td><td>Wet</td><td>12</td><td>135</td></tr>
+<tr><th scope="row">388</th><td>Villa Molino</td><td>Wet</td><td>12</td><td>26.25</td></tr>
+<tr><th scope="row">389</th><td>Zinfandel</td><td>Wet</td><td>12</td><td>20</td></tr>
+<tr><th scope="row">390</th><td>Barbebelle</td><td>Wet</td><td>12</td><td>28</td></tr>
+<tr><th scope="row">391</th><td>Whispering Angel</td><td>Wet</td><td>12</td><td>54.5</td></tr>
+<tr><th scope="row">392</th><td>Villa Sandi Prosecco</td><td>Wet</td><td>12</td><td>32</td></tr>
+<tr><th scope="row">393</th><td>Villa Sandi Rose</td><td>Wet</td><td>12</td><td>32</td></tr>
+<tr><th scope="row">394</th><td>Deutz Brut Vintage</td><td>Wet</td><td>12</td><td>90</td></tr>
+<tr><th scope="row">395</th><td>Castelnau Champagne</td><td>Wet</td><td>12</td><td>56.2</td></tr>
+<tr><th scope="row">396</th><td>Steak Frites</td><td>Dry</td><td>2</td><td>22</td></tr>
+<tr><th scope="row">397</th><td>Steak Ciabatta</td><td>Dry</td><td>2</td><td>16</td></tr>
+<tr><th scope="row">398</th><td>Sirloin Strips</td><td>Dry</td><td>20</td><td>12</td></tr>
+<tr><th scope="row">399</th><td>Duck Breast Salad</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">400</th><td>Pork Belly</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">401</th><td>Lamb Tagine</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">402</th><td>LG Lamb Tagine</td><td>Dry</td><td>20</td><td>15</td></tr>
+<tr><th scope="row">403</th><td>Pollo y Chorizo</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">404</th><td>Pollo al Ajillo</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">405</th><td>Chorizo BP Halloumi</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">406</th><td>Chorizo al Vino</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">407</th><td>Albondigas</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">408</th><td>Catalan Tomato Bread</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">409</th><td>Scallops</td><td>Dry</td><td>20</td><td>9</td></tr>
+<tr><th scope="row">410</th><td>Sea Bass</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">411</th><td>Paella</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">412</th><td>LG Paella</td><td>Dry</td><td>20</td><td>15</td></tr>
+<tr><th scope="row">413</th><td>Moules</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">414</th><td>LG Moules</td><td>Dry</td><td>20</td><td>15</td></tr>
+<tr><th scope="row">415</th><td>Gambas Pil Pil</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">416</th><td>Gambas al Ajillo</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">417</th><td>Fishcakes</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">418</th><td>Boquerones</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">419</th><td>Calamari</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">420</th><td>Boquerones Fritos</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">421</th><td>Parmesan Polenta</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">422</th><td>Halloumi</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">423</th><td>Bread & Olives</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">424</th><td>Med Veg Paella</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">425</th><td>LG Med Veg Paella</td><td>Dry</td><td>20</td><td>12</td></tr>
+<tr><th scope="row">426</th><td>Feta & Med Veg</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">427</th><td>Tortilla Espanol</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">428</th><td>Falafels</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">429</th><td>Brie & Jam Tartlets</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">430</th><td>Goats Cheese Bruschetta</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">431</th><td>Houmus</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">432</th><td>Grilled Med Veg</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">433</th><td>Stuffed Jalapenos</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">434</th><td>Patatas Bravas</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">435</th><td>Patatas Fritas</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">436</th><td>Champinones al Ajillo</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">437</th><td>Pan de Ajo</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">438</th><td>Mixed Olives</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">439</th><td>Warm Ciabatta</td><td>Dry</td><td>20</td><td>4</td></tr>
+<tr><th scope="row">440</th><td>Feta Pea Mint Salad</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">441</th><td>Insalata Caprese</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">442</th><td>Greek Salad</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">443</th><td>Beefburger</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">444</th><td>Linguini Pescatore</td><td>Dry</td><td>3</td><td>19</td></tr>
+<tr><th scope="row">445</th><td>Meatball Linguini</td><td>Dry</td><td>3</td><td>16</td></tr>
+<tr><th scope="row">446</th><td>Linguini Carbonara</td><td>Dry</td><td>3</td><td>15</td></tr>
+<tr><th scope="row">447</th><td>Linguini Arrabiatta</td><td>Dry</td><td>3</td><td>14</td></tr>
+<tr><th scope="row">448</th><td>Ciabatta</td><td>Dry</td><td>2</td><td>3.5</td></tr>
+<tr><th scope="row">449</th><td>Jug Pimms</td><td>Wet</td><td>7</td><td>19</td></tr>
+<tr><th scope="row">450</th><td>Glass Pimms</td><td>Wet</td><td>7</td><td>9</td></tr>
+<tr><th scope="row">451</th><td>Sausage lentil spicy sau</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">452</th><td>Manchego Cheese Croq</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">453</th><td>Charcuterie Plate</td><td>Dry</td><td>20</td><td>9</td></tr>
+<tr><th scope="row">454</th><td>Duck and plum sauce</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">455</th><td>Baby pork ribs</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">456</th><td>Croquettes al jambon</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">457</th><td>Gambas Chorizo</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">458</th><td>Spanish Tomato Bread</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">459</th><td>Padron Peppers</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">460</th><td>Add Avocado</td><td>Dry</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">461</th><td>Eggs Wild Mushroom</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">462</th><td>Avocado & Egg</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">463</th><td>Avocado & Feta</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">464</th><td>Avocado & Crab</td><td>Dry</td><td>1</td><td>12.5</td></tr>
+<tr><th scope="row">465</th><td>Romesco & Feta</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">466</th><td>Romesco & Chorizo</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">467</th><td>Smoked Salmon</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">468</th><td>Steak & Eggs</td><td>Dry</td><td>1</td><td>12</td></tr>
+<tr><th scope="row">469</th><td>Egg Bap</td><td>Dry</td><td>1</td><td>6.5</td></tr>
+<tr><th scope="row">470</th><td>Sausage Bap</td><td>Dry</td><td>1</td><td>6.5</td></tr>
+<tr><th scope="row">471</th><td>Smoked Bacon Bap</td><td>Dry</td><td>1</td><td>6.5</td></tr>
+<tr><th scope="row">472</th><td>Smoked Bacon & Maple Syr</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">473</th><td>Fresh Berries & Yoghurt</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">474</th><td>Banana & Chocolate Bisco</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">475</th><td>Toast Cheddar & Salami</td><td>Dry</td><td>1</td><td>7.5</td></tr>
+<tr><th scope="row">477</th><td>Becks Blue ZERO</td><td>Wet</td><td>6</td><td>4.3</td></tr>
+<tr><th scope="row">478</th><td>Corona ZERO</td><td>Wet</td><td>6</td><td>4.3</td></tr>
+<tr><th scope="row">479</th><td>Aperol</td><td>Wet</td><td>7</td><td>3.5</td></tr>
+<tr><th scope="row">480</th><td>Coridal - Lime</td><td>Wet</td><td>9</td><td>0.5</td></tr>
+<tr><th scope="row">481</th><td>Cordial - Blackcurrant</td><td>Wet</td><td>9</td><td>0.5</td></tr>
+<tr><th scope="row">482</th><td>Kraken Dark Spiced</td><td>Wet</td><td>7</td><td>4.5</td></tr>
+<tr><th scope="row">483</th><td>Kraken Coffee</td><td>Wet</td><td>7</td><td>4.5</td></tr>
+<tr><th scope="row">484</th><td>Coconut Shrimp</td><td>Dry</td><td>20</td><td>9</td></tr>
+<tr><th scope="row">485</th><td>Courgette Fritters</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">486</th><td>Chilli Beef Cheek Tostad</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">487</th><td>Pan Con Tomate Parma Ham</td><td>Dry</td><td>20</td><td>9</td></tr>
+<tr><th scope="row">488</th><td>Salmon Carpaccio</td><td>Dry</td><td>20</td><td>12</td></tr>
+<tr><th scope="row">489</th><td>Gazpacho</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">490</th><td>Harissa Cauli Steak</td><td>Dry</td><td>20</td><td>22</td></tr>
+<tr><th scope="row">491</th><td>Sea Bass + Prawns</td><td>Dry</td><td>20</td><td>26</td></tr>
+<tr><th scope="row">492</th><td>Elderflower & Soda</td><td>Wet</td><td>9</td><td>2.75</td></tr>
+<tr><th scope="row">493</th><td>Blue Bottle Gin</td><td>Wet</td><td>8</td><td>4.9</td></tr>
+<tr><th scope="row">494</th><td>Old Mout Berry & Cherry</td><td>Wet</td><td>6</td><td>5.3</td></tr>
+<tr><th scope="row">495</th><td>Berry & Cherry ZERO</td><td>Wet</td><td>6</td><td>5.3</td></tr>
+<tr><th scope="row">496</th><td>Guacamole</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">497</th><td>Boiled Egg</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">501</th><td>TF Hummus</td><td>Dry</td><td>17</td><td>6</td></tr>
+<tr><th scope="row">502</th><td>TF Soup</td><td>Dry</td><td>17</td><td>6</td></tr>
+<tr><th scope="row">503</th><td>TF Ribs</td><td>Dry</td><td>17</td><td>6</td></tr>
+<tr><th scope="row">504</th><td>TF Whitebait</td><td>Dry</td><td>17</td><td>6</td></tr>
+<tr><th scope="row">505</th><td>TF Calamari</td><td>Dry</td><td>17</td><td>6</td></tr>
+<tr><th scope="row">506</th><td>TF Fish & Chips</td><td>Dry</td><td>3</td><td>19</td></tr>
+<tr><th scope="row">507</th><td>TF Steak</td><td>Dry</td><td>3</td><td>23</td></tr>
+<tr><th scope="row">508</th><td>TF Linguini</td><td>Dry</td><td>3</td><td>19</td></tr>
+<tr><th scope="row">509</th><td>TF Falafel</td><td>Dry</td><td>3</td><td>19</td></tr>
+<tr><th scope="row">510</th><td>TF Sausage & Mash</td><td>Dry</td><td>3</td><td>19</td></tr>
+<tr><th scope="row">511</th><td>TF Ice Cream</td><td>Dry</td><td>5</td><td>6</td></tr>
+<tr><th scope="row">512</th><td>TF Apple Crumble</td><td>Dry</td><td>5</td><td>6</td></tr>
+<tr><th scope="row">513</th><td>TF Brownie</td><td>Dry</td><td>5</td><td>6</td></tr>
+<tr><th scope="row">514</th><td>TF Cheese</td><td>Dry</td><td>5</td><td>6</td></tr>
+<tr><th scope="row">515</th><td>TF Eton Mess</td><td>Dry</td><td>5</td><td>6</td></tr>
+<tr><th scope="row">516</th><td>TFT Whitebait</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">517</th><td>TFT Cod Bites</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">518</th><td>TFT Chorizo</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">519</th><td>TFT Ribs</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">520</th><td>TFT Mussels</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">521</th><td>TFT Halloumi Fries</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">522</th><td>TFT Hummus</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">523</th><td>TFT Buttermilk Chick</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">524</th><td>TFT Mini Burger</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">525</th><td>TFT Falafel</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">526</th><td>TFT Chorizo Salad</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">527</th><td>TFT Stuffed Jalapenos</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">528</th><td>TFT Garlic Bread</td><td>Dry</td><td>20</td><td>5</td></tr>
+<tr><th scope="row">529</th><td>TFT Cheesy Garlic B</td><td>Dry</td><td>20</td><td>6.5</td></tr>
+<tr><th scope="row">531</th><td>Candles</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">532</th><td>Candle Holders</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">533</th><td>Jewellery</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">534</th><td>Baskets</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">535</th><td>Scarves</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">536</th><td>Xmas Stuff</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">537</th><td>Glassware</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">538</th><td>Flowers</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">539</th><td>Lighting</td><td>Other</td><td>21</td><td>0</td></tr>
+<tr><th scope="row">541</th><td>Toasted Sourdough </td><td>Dry</td><td>2</td><td>6</td></tr>
+<tr><th scope="row">542</th><td>Hummus & Sourdough</td><td>Dry</td><td>2</td><td>8</td></tr>
+<tr><th scope="row">543</th><td>Garlic Bread</td><td>Dry</td><td>2</td><td>6</td></tr>
+<tr><th scope="row">544</th><td>Add Cheese</td><td>Dry</td><td>2</td><td>1.5</td></tr>
+<tr><th scope="row">545</th><td>Add Feta</td><td>Dry</td><td>2</td><td>1.5</td></tr>
+<tr><th scope="row">546</th><td>Halloumi Fries and Salsa</td><td>Dry</td><td>2</td><td>8</td></tr>
+<tr><th scope="row">547</th><td>Seafood Plate</td><td>Dry</td><td>2</td><td>15.5</td></tr>
+<tr><th scope="row">548</th><td>Tempura Calamari</td><td>Dry</td><td>2</td><td>8</td></tr>
+<tr><th scope="row">549</th><td>Wild Mushroom Sourdough</td><td>Dry</td><td>2</td><td>9</td></tr>
+<tr><th scope="row">550</th><td>Chorizo Scotch Egg</td><td>Dry</td><td>2</td><td>9</td></tr>
+<tr><th scope="row">551</th><td>Chicken</td><td>Dry</td><td>2</td><td>5</td></tr>
+<tr><th scope="row">552</th><td>King Prawn</td><td>Dry</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">553</th><td>Add Chicken</td><td>Dry</td><td>2</td><td>4</td></tr>
+<tr><th scope="row">554</th><td>Add Avocado</td><td>Dry</td><td>2</td><td>4</td></tr>
+<tr><th scope="row">555</th><td>Add Prawn</td><td>Dry</td><td>2</td><td>4</td></tr>
+<tr><th scope="row">556</th><td>Add Crab</td><td>Dry</td><td>2</td><td>6</td></tr>
+<tr><th scope="row">557</th><td>Cobb Salad</td><td>Dry</td><td>2</td><td>14</td></tr>
+<tr><th scope="row">558</th><td>Roast Chick Pea Salad</td><td>Dry</td><td>2</td><td>14</td></tr>
+<tr><th scope="row">559</th><td>Crab, creme fraiche ciab</td><td>Dry</td><td>2</td><td>14.5</td></tr>
+<tr><th scope="row">560</th><td>Add Coleslaw</td><td>Dry</td><td>2</td><td>2</td></tr>
+<tr><th scope="row">561</th><td>Gouffre Club Ciabatta</td><td>Dry</td><td>2</td><td>14.5</td></tr>
+<tr><th scope="row">562</th><td>Prawn Marie Rose Ciabatt</td><td>Dry</td><td>2</td><td>14</td></tr>
+<tr><th scope="row">563</th><td>Halloumi Ciabatta</td><td>Dry</td><td>2</td><td>13</td></tr>
+<tr><th scope="row">564</th><td>Parmesan Fries</td><td>Dry</td><td>2</td><td>6.5</td></tr>
+<tr><th scope="row">565</th><td>Coleslaw</td><td>Dry</td><td>2</td><td>4</td></tr>
+<tr><th scope="row">566</th><td>Buttermilk Chick Burger</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">567</th><td>Vegan Burger</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">568</th><td>Vegetable Lasagne</td><td>Dry</td><td>2</td><td>17</td></tr>
+<tr><th scope="row">569</th><td>Sourdough</td><td>Dry</td><td>2</td><td>0</td></tr>
+<tr><th scope="row">570</th><td>Sausage and Mash</td><td>Dry</td><td>2</td><td>17.5</td></tr>
+<tr><th scope="row">571</th><td>Half Chicken and salsa</td><td>Dry</td><td>2</td><td>18</td></tr>
+<tr><th scope="row">572</th><td>Seafood Tagliatelle</td><td>Dry</td><td>2</td><td>19</td></tr>
+<tr><th scope="row">573</th><td>Baked Salmon & Potatoes</td><td>Dry</td><td>2</td><td>21</td></tr>
+<tr><th scope="row">574</th><td>Ribeye Steak</td><td>Dry</td><td>27</td><td>36</td></tr>
+<tr><th scope="row">576</th><td>Smoked Salmon</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">577</th><td>Turkey and Pork Croquett</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">578</th><td>Brie & Cranberry Tart</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">579</th><td>Braised Beef Pie</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">580</th><td>Herb Baked Salmon</td><td>Dry</td><td>14</td><td>21</td></tr>
+<tr><th scope="row">581</th><td>Lentil & Mushroom Puddin</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">582</th><td>Christmas Pudding</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">583</th><td>Cranberry Eton Mess</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">584</th><td>Banana Choc Brownie</td><td>Dry</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">585</th><td>Winter Warmer 2 Courses</td><td>Dry</td><td>14</td><td>24</td></tr>
+<tr><th scope="row">586</th><td>Winter Warmer 3 Courses</td><td>Dry</td><td>14</td><td>27</td></tr>
+<tr><th scope="row">587</th><td>Garlic & Pepper Prawns</td><td>Dry</td><td>13</td><td>9</td></tr>
+<tr><th scope="row">588</th><td>Halloumi Fries</td><td>Dry</td><td>13</td><td>8</td></tr>
+<tr><th scope="row">589</th><td>Goats Cheese Souffle</td><td>Dry</td><td>13</td><td>8.5</td></tr>
+<tr><th scope="row">590</th><td>Chorizo Scotch Egg</td><td>Dry</td><td>13</td><td>8.5</td></tr>
+<tr><th scope="row">591</th><td>Sticky Cod Bites</td><td>Dry</td><td>13</td><td>8</td></tr>
+<tr><th scope="row">592</th><td>Piri Piri Chicken Wings</td><td>Dry</td><td>13</td><td>7</td></tr>
+<tr><th scope="row">593</th><td>Rib Eye Steak</td><td>Dry</td><td>13</td><td>29</td></tr>
+<tr><th scope="row">594</th><td>Chicken Parmesan</td><td>Dry</td><td>13</td><td>16</td></tr>
+<tr><th scope="row">595</th><td>Gouffre Double Burger</td><td>Dry</td><td>13</td><td>17</td></tr>
+<tr><th scope="row">596</th><td>Gouffre Vegan Burger</td><td>Dry</td><td>13</td><td>17</td></tr>
+<tr><th scope="row">597</th><td>Steak,Kidney,Mush Pie</td><td>Dry</td><td>13</td><td>18.5</td></tr>
+<tr><th scope="row">598</th><td>Chick,Ham Hock Pie</td><td>Dry</td><td>13</td><td>18.5</td></tr>
+<tr><th scope="row">599</th><td>Toad in the Hole</td><td>Dry</td><td>13</td><td>17.5</td></tr>
+<tr><th scope="row">600</th><td>Herb Baked Salmon</td><td>Dry</td><td>13</td><td>18.5</td></tr>
+<tr><th scope="row">601</th><td>Battered Cod</td><td>Dry</td><td>13</td><td>17</td></tr>
+<tr><th scope="row">602</th><td>Mushroom Tagliatelle</td><td>Dry</td><td>13</td><td>17.5</td></tr>
+<tr><th scope="row">603</th><td>Chicken Ceasar Salad</td><td>Dry</td><td>13</td><td>17</td></tr>
+<tr><th scope="row">604</th><td>Salmon Ceasar Salad</td><td>Dry</td><td>13</td><td>17</td></tr>
+<tr><th scope="row">605</th><td>Mixed Lentil Pudding</td><td>Dry</td><td>13</td><td>16</td></tr>
+<tr><th scope="row">606</th><td>Jam Roly Poly</td><td>Dry</td><td>13</td><td>7</td></tr>
+<tr><th scope="row">607</th><td>Seasonal Crumble</td><td>Dry</td><td>13</td><td>7.5</td></tr>
+<tr><th scope="row">608</th><td>Treacle Tart</td><td>Dry</td><td>13</td><td>7</td></tr>
+<tr><th scope="row">609</th><td>Rice Pudding</td><td>Dry</td><td>13</td><td>7</td></tr>
+<tr><th scope="row">610</th><td>Vanilla Custard</td><td>Dry</td><td>13</td><td>0</td></tr>
+<tr><th scope="row">611</th><td>Ice Cream</td><td>Dry</td><td>13</td><td>0</td></tr>
+<tr><th scope="row">612</th><td>Add Bread & Butter</td><td>Dry</td><td>13</td><td>2</td></tr>
+<tr><th scope="row">613</th><td>Mashed Potato</td><td>Dry</td><td>13</td><td>2</td></tr>
+<tr><th scope="row">615</th><td>Scones x1</td><td>Dry</td><td>19</td><td>3.5</td></tr>
+<tr><th scope="row">616</th><td>Scones x2</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">617</th><td>Cold Sausage Roll</td><td>Dry</td><td>19</td><td>4.75</td></tr>
+<tr><th scope="row">618</th><td>Roast Turkey</td><td>Dry</td><td>4</td><td>18.95</td></tr>
+<tr><th scope="row">619</th><td>Extra Yorkshire Pud</td><td>Dry</td><td>4</td><td>2.5</td></tr>
+<tr><th scope="row">620</th><td>Le Gouffre Veg Breakfast</td><td>Dry</td><td>1</td><td>13.5</td></tr>
+<tr><th scope="row">621</th><td>Smoked Salmon Scrambled </td><td>Dry</td><td>1</td><td>12</td></tr>
+<tr><th scope="row">622</th><td>Gouffre Stack</td><td>Dry</td><td>1</td><td>10</td></tr>
+<tr><th scope="row">623</th><td>Croque Monsieur</td><td>Dry</td><td>1</td><td>10</td></tr>
+<tr><th scope="row">624</th><td>Croque Madame</td><td>Dry</td><td>1</td><td>11</td></tr>
+<tr><th scope="row">625</th><td>Pancakes</td><td>Dry</td><td>1</td><td>9</td></tr>
+<tr><th scope="row">626</th><td>Mushroom Poached Eggs</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">627</th><td>Veggie Breakfast</td><td>Dry</td><td>1</td><td>13.5</td></tr>
+<tr><th scope="row">628</th><td>Eggs Benedict</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">629</th><td>Eggs Royale</td><td>Dry</td><td>1</td><td>12.5</td></tr>
+<tr><th scope="row">630</th><td>Eggs Florentine</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">631</th><td>Eggs Turkish</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">632</th><td>Bacon Bap</td><td>Dry</td><td>1</td><td>6.5</td></tr>
+<tr><th scope="row">633</th><td>Smashed Avo Toast</td><td>Dry</td><td>1</td><td>9</td></tr>
+<tr><th scope="row">634</th><td>French Toast</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">635</th><td>Eggs Your Way</td><td>Dry</td><td>1</td><td>6.5</td></tr>
+<tr><th scope="row">636</th><td>Brie Prosciutto Toast</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">637</th><td>Eggs & Soldiers</td><td>Dry</td><td>1</td><td>6.5</td></tr>
+<tr><th scope="row">638</th><td>Fried</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">639</th><td>Scrambled</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">640</th><td>Poached</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">641</th><td>Bacon Maple</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">642</th><td>Berry Yoghurt</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">643</th><td>NO EGG</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">644</th><td>Bread & Oils</td><td>Dry</td><td>23</td><td>6.5</td></tr>
+<tr><th scope="row">645</th><td>Hummus</td><td>Dry</td><td>23</td><td>8</td></tr>
+<tr><th scope="row">646</th><td>Garlic Bread & Cheese</td><td>Dry</td><td>23</td><td>7.5</td></tr>
+<tr><th scope="row">647</th><td>Whitebait</td><td>Dry</td><td>25</td><td>8</td></tr>
+<tr><th scope="row">648</th><td>Olives</td><td>Dry</td><td>23</td><td>7.5</td></tr>
+<tr><th scope="row">649</th><td>Padron peppers</td><td>Dry</td><td>23</td><td>7.5</td></tr>
+<tr><th scope="row">650</th><td>Gouffre Club</td><td>Dry</td><td>24</td><td>14.5</td></tr>
+<tr><th scope="row">651</th><td>Prawn Ciabatta</td><td>Dry</td><td>24</td><td>14</td></tr>
+<tr><th scope="row">652</th><td>Beef & Horseradish</td><td>Dry</td><td>24</td><td>14</td></tr>
+<tr><th scope="row">653</th><td>Chicken & Stuffing Ciaba</td><td>Dry</td><td>24</td><td>14</td></tr>
+<tr><th scope="row">654</th><td>Brie & Cranberry Ciabatt</td><td>Dry</td><td>24</td><td>12.5</td></tr>
+<tr><th scope="row">655</th><td>Gsy Crab Ciabatta</td><td>Dry</td><td>24</td><td>14</td></tr>
+<tr><th scope="row">656</th><td>Chilli Beef Bao</td><td>Dry</td><td>25</td><td>0</td></tr>
+<tr><th scope="row">657</th><td>Calamari</td><td>Dry</td><td>25</td><td>8</td></tr>
+<tr><th scope="row">658</th><td>Soup</td><td>Dry</td><td>25</td><td>9</td></tr>
+<tr><th scope="row">659</th><td>Smoked Trout</td><td>Dry</td><td>25</td><td>13.5</td></tr>
+<tr><th scope="row">660</th><td>SML Mussels</td><td>Dry</td><td>25</td><td>9</td></tr>
+<tr><th scope="row">661</th><td>Mushrooms Sourdough</td><td>Dry</td><td>25</td><td>9</td></tr>
+<tr><th scope="row">662</th><td>Salmon Tartar</td><td>Dry</td><td>25</td><td>9.5</td></tr>
+<tr><th scope="row">663</th><td>Halloumi Fries</td><td>Dry</td><td>25</td><td>8</td></tr>
+<tr><th scope="row">664</th><td>Crab Avocado Salad</td><td>Dry</td><td>26</td><td>19</td></tr>
+<tr><th scope="row">665</th><td>Caesar Salad</td><td>Dry</td><td>26</td><td>16</td></tr>
+<tr><th scope="row">666</th><td>Beetroot Blood Orange Sa</td><td>Dry</td><td>26</td><td>16</td></tr>
+<tr><th scope="row">667</th><td>Butternut Squash Salad</td><td>Dry</td><td>26</td><td>19</td></tr>
+<tr><th scope="row">668</th><td>Fish & Chips</td><td>Dry</td><td>27</td><td>18</td></tr>
+<tr><th scope="row">669</th><td>Half Roast Chicken</td><td>Dry</td><td>27</td><td>18</td></tr>
+<tr><th scope="row">670</th><td>Burger</td><td>Dry</td><td>27</td><td>17</td></tr>
+<tr><th scope="row">671</th><td>Sea Bass</td><td>Dry</td><td>27</td><td>22</td></tr>
+<tr><th scope="row">672</th><td>Chicken Burger</td><td>Dry</td><td>27</td><td>17</td></tr>
+<tr><th scope="row">673</th><td>Moules Mariniere</td><td>Dry</td><td>27</td><td>17</td></tr>
+<tr><th scope="row">674</th><td>Lamb Shortloin</td><td>Dry</td><td>27</td><td>28</td></tr>
+<tr><th scope="row">675</th><td>Vegan Burger</td><td>Dry</td><td>27</td><td>17</td></tr>
+<tr><th scope="row">676</th><td>Sausage & Mash</td><td>Dry</td><td>27</td><td>18</td></tr>
+<tr><th scope="row">677</th><td>Jersey Royal Potatoes</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">678</th><td>Chunky Chips</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">679</th><td>Spring Greens</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">680</th><td>Truffle Fries</td><td>Dry</td><td>28</td><td>6</td></tr>
+<tr><th scope="row">681</th><td>Broccoli</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">682</th><td>Carrots & Tarragon</td><td>Dry</td><td>28</td><td>4</td></tr>
+<tr><th scope="row">683</th><td>Jam</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">684</th><td>Butter</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">685</th><td>Cream</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">686</th><td>Cheese</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">687</th><td>Bacon</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">688</th><td>Fruit</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">689</th><td>Plain</td><td>Dry</td><td>19</td><td>0</td></tr>
+<tr><th scope="row">690</th><td>Scones x1</td><td>Dry</td><td>19</td><td>3.5</td></tr>
+<tr><th scope="row">691</th><td>Scones x2</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">692</th><td>Croissant 5.00</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">693</th><td>Croissant 7.00</td><td>Dry</td><td>19</td><td>5</td></tr>
+<tr><th scope="row">694</th><td>Fries</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">695</th><td>Add Chicken</td><td>Dry</td><td>26</td><td>5</td></tr>
+<tr><th scope="row">696</th><td>NO ADD</td><td>Dry</td><td>26</td><td>0</td></tr>
+<tr><th scope="row">698</th><td>Double Espresso</td><td>Dry</td><td>11</td><td>2.7</td></tr>
+<tr><th scope="row">699</th><td>Garlic Bread</td><td>Dry</td><td>23</td><td>6</td></tr>
+<tr><th scope="row">701</th><td>Pot of Tea</td><td>Dry</td><td>11</td><td>6</td></tr>
+<tr><th scope="row">702</th><td>Hot Sausage Roll</td><td>Dry</td><td>19</td><td>5.5</td></tr>
+<tr><th scope="row">703</th><td>Roast Sirloin Beef</td><td>Dry</td><td>15</td><td>21.95</td></tr>
+<tr><th scope="row">704</th><td>Rolled Roast Chicken</td><td>Dry</td><td>15</td><td>21.95</td></tr>
+<tr><th scope="row">705</th><td>Vegetarian Nut Roast</td><td>Dry</td><td>15</td><td>19.95</td></tr>
+<tr><th scope="row">706</th><td>Baked Salmon</td><td>Dry</td><td>15</td><td>21</td></tr>
+<tr><th scope="row">707</th><td>Burrata Salad</td><td>Dry</td><td>15</td><td>19</td></tr>
+<tr><th scope="row">708</th><td>Chicken Cesar Salad</td><td>Dry</td><td>15</td><td>21</td></tr>
+<tr><th scope="row">709</th><td>Beef Ciabatta</td><td>Dry</td><td>15</td><td>14</td></tr>
+<tr><th scope="row">710</th><td>Chicken Ciabatta</td><td>Dry</td><td>15</td><td>14</td></tr>
+<tr><th scope="row">711</th><td>White Bait</td><td>Dry</td><td>15</td><td>8</td></tr>
+<tr><th scope="row">712</th><td>Marinated Olives</td><td>Dry</td><td>15</td><td>7.5</td></tr>
+<tr><th scope="row">713</th><td>Padron Peppers</td><td>Dry</td><td>15</td><td>7.5</td></tr>
+<tr><th scope="row">714</th><td>Garlic Bread</td><td>Dry</td><td>15</td><td>6</td></tr>
+<tr><th scope="row">715</th><td>Cheesy Garlic Bread</td><td>Dry</td><td>15</td><td>7.5</td></tr>
+<tr><th scope="row">716</th><td>Soup Of the Day</td><td>Dry</td><td>15</td><td>8</td></tr>
+<tr><th scope="row">717</th><td>Calamari Tempura</td><td>Dry</td><td>15</td><td>8</td></tr>
+<tr><th scope="row">718</th><td>Garlic Mushrooms</td><td>Dry</td><td>15</td><td>9</td></tr>
+<tr><th scope="row">719</th><td>Beef Bao Bun</td><td>Dry</td><td>15</td><td>11</td></tr>
+<tr><th scope="row">720</th><td>Roast Lamb</td><td>Dry</td><td>15</td><td>21.95</td></tr>
+<tr><th scope="row">721</th><td>Roast Beef</td><td>Dry</td><td>52</td><td>21.95</td></tr>
+<tr><th scope="row">722</th><td>Roast Chicken</td><td>Dry</td><td>52</td><td>21.95</td></tr>
+<tr><th scope="row">723</th><td>Roast Lamb</td><td>Dry</td><td>52</td><td>21.95</td></tr>
+<tr><th scope="row">724</th><td>Veggie Roast</td><td>Dry</td><td>52</td><td>21.95</td></tr>
+<tr><th scope="row">725</th><td>Grilled Lobster</td><td>Dry</td><td>52</td><td>65</td></tr>
+<tr><th scope="row">726</th><td>Half Grilled Lobster</td><td>Dry</td><td>52</td><td>35</td></tr>
+<tr><th scope="row">727</th><td>Whipped Lardo</td><td>Dry</td><td>52</td><td>6</td></tr>
+<tr><th scope="row">728</th><td>Stuffed Peppers</td><td>Dry</td><td>52</td><td>7.5</td></tr>
+<tr><th scope="row">729</th><td>Oysters</td><td>Dry</td><td>52</td><td>4</td></tr>
+<tr><th scope="row">730</th><td>Soup</td><td>Dry</td><td>52</td><td>12</td></tr>
+<tr><th scope="row">731</th><td>Chicken Liver Pate</td><td>Dry</td><td>52</td><td>9</td></tr>
+<tr><th scope="row">732</th><td>Burrata Salad</td><td>Dry</td><td>52</td><td>12</td></tr>
+<tr><th scope="row">733</th><td>Giant Prawn</td><td>Dry</td><td>52</td><td>16</td></tr>
+<tr><th scope="row">734</th><td>Crab Benedict</td><td>Dry</td><td>1</td><td>12.5</td></tr>
+<tr><th scope="row">735</th><td>Gouffre Stack</td><td>Dry</td><td>1</td><td>10</td></tr>
+<tr><th scope="row">736</th><td>Smashed Avocado</td><td>Dry</td><td>1</td><td>9</td></tr>
+<tr><th scope="row">737</th><td>Ham, Cheese, Mango Sourd</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">738</th><td>Black Pudding Bap</td><td>Dry</td><td>1</td><td>6.5</td></tr>
+<tr><th scope="row">739</th><td>Caprese Ciabatta</td><td>Dry</td><td>24</td><td>14.5</td></tr>
+<tr><th scope="row">740</th><td>Hunters Chicken Ciabatta</td><td>Dry</td><td>24</td><td>14</td></tr>
+<tr><th scope="row">741</th><td>Tempura King Prawn</td><td>Dry</td><td>25</td><td>11</td></tr>
+<tr><th scope="row">742</th><td>Seabass Ceviche</td><td>Dry</td><td>25</td><td>12.5</td></tr>
+<tr><th scope="row">743</th><td>Grilled Asparagus</td><td>Dry</td><td>25</td><td>9.5</td></tr>
+<tr><th scope="row">744</th><td>Black Bream & Orange Sal</td><td>Dry</td><td>26</td><td>17</td></tr>
+<tr><th scope="row">745</th><td>Mango & Spinach Salad</td><td>Dry</td><td>26</td><td>16</td></tr>
+<tr><th scope="row">746</th><td>Lamb Rump</td><td>Dry</td><td>27</td><td>22</td></tr>
+<tr><th scope="row">747</th><td>Pork Chop</td><td>Dry</td><td>27</td><td>20</td></tr>
+<tr><th scope="row">748</th><td>Petits Pois</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">749</th><td>SML Chilli Beef Bao</td><td>Dry</td><td>25</td><td>11</td></tr>
+<tr><th scope="row">750</th><td>LRG Chilli Beef Bao</td><td>Dry</td><td>25</td><td>19</td></tr>
+<tr><th scope="row">751</th><td>LRG Mussels</td><td>Dry</td><td>25</td><td>17</td></tr>
+<tr><th scope="row">752</th><td>Nutella & Chantilly</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">753</th><td>Roast Pork</td><td>Dry</td><td>15</td><td>21.95</td></tr>
+<tr><th scope="row">754</th><td>Smoked Mackerel Pate</td><td>Dry</td><td>15</td><td>12</td></tr>
+<tr><th scope="row">755</th><td>Pan Seared Sea Bass</td><td>Dry</td><td>15</td><td>21.95</td></tr>
+<tr><th scope="row">756</th><td>Aubergine Miso Dip</td><td>Dry</td><td>15</td><td>8</td></tr>
+<tr><th scope="row">757</th><td>Tempura King Prawns</td><td>Dry</td><td>15</td><td>12</td></tr>
+<tr><th scope="row">758</th><td>Lobster Bisque</td><td>Dry</td><td>15</td><td>12</td></tr>
+<tr><th scope="row">759</th><td>Cheese Croquettes</td><td>Dry</td><td>15</td><td>6</td></tr>
+<tr><th scope="row">760</th><td>Chicken and Chips</td><td>Dry</td><td>27</td><td>17</td></tr>
+<tr><th scope="row">761</th><td>Add Hash Brown</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">762</th><td>Add Avocado</td><td>Dry</td><td>1</td><td>2.5</td></tr>
+<tr><th scope="row">763</th><td>No Hollandaise</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">764</th><td>Croissant</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">765</th><td>Brown Toast</td><td>Dry</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">766</th><td>300g Ribeye</td><td>Dry</td><td>27</td><td>36</td></tr>
+<tr><th scope="row">767</th><td>350g Sirloin</td><td>Dry</td><td>27</td><td>35</td></tr>
+<tr><th scope="row">768</th><td>500g Porterhouse</td><td>Dry</td><td>27</td><td>45</td></tr>
+<tr><th scope="row">769</th><td>Side Salad</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">770</th><td>Flatbread Truffle Mushro</td><td>Dry</td><td>25</td><td>10</td></tr>
+<tr><th scope="row">771</th><td>Skate</td><td>Dry</td><td>27</td><td>28</td></tr>
+<tr><th scope="row">772</th><td>Fries</td><td>Dry</td><td>27</td><td>0</td></tr>
+<tr><th scope="row">773</th><td>Chunky Chips</td><td>Dry</td><td>27</td><td>0</td></tr>
+<tr><th scope="row">774</th><td>New Potatoes</td><td>Dry</td><td>27</td><td>0</td></tr>
+<tr><th scope="row">775</th><td>Lamb Koftas</td><td>Dry</td><td>20</td><td>13</td></tr>
+<tr><th scope="row">776</th><td>Polpetti</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">777</th><td>Charcuterie LARGE</td><td>Dry</td><td>20</td><td>18</td></tr>
+<tr><th scope="row">778</th><td>Chilli Beef Tacos</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">779</th><td>Salt Cod Croqs</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">780</th><td>Prawn Toast</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">781</th><td>Gambas Pil Pil</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">782</th><td>Squid</td><td>Dry</td><td>20</td><td>9</td></tr>
+<tr><th scope="row">783</th><td>Mex Corn Ribs</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">784</th><td>Peppers & Feta</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">785</th><td>Pan Con Tomate</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">786</th><td>Patatas Bravas</td><td>Dry</td><td>20</td><td>6</td></tr>
+<tr><th scope="row">787</th><td>Aubergine & Miso</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">788</th><td>Olives</td><td>Dry</td><td>20</td><td>7.5</td></tr>
+<tr><th scope="row">789</th><td>Mushroom Quesadilla</td><td>Dry</td><td>20</td><td>8</td></tr>
+<tr><th scope="row">790</th><td>Hummus</td><td>Dry</td><td>20</td><td>7</td></tr>
+<tr><th scope="row">791</th><td>Sea Bass</td><td>Dry</td><td>27</td><td>19</td></tr>
+<tr><th scope="row">792</th><td>Chef's Cut</td><td>Dry</td><td>27</td><td>0</td></tr>
+<tr><th scope="row">793</th><td>Peppercorn Sauce</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">794</th><td>Garlic Mushroom Sauce</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">795</th><td>Chimichurri Sauce</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">796</th><td>Pinot Noir Ropiteau</td><td>Wet</td><td>12</td><td>25</td></tr>
+<tr><th scope="row">797</th><td>Merlot Holbrooks Road</td><td>Wet</td><td>12</td><td>28.85</td></tr>
+<tr><th scope="row">798</th><td>Malbec P15</td><td>Wet</td><td>12</td><td>28.85</td></tr>
+<tr><th scope="row">799</th><td>Rioja Antano Reserva</td><td>Wet</td><td>12</td><td>33</td></tr>
+<tr><th scope="row">800</th><td>Chateau de Plerreux</td><td>Wet</td><td>12</td><td>36.35</td></tr>
+<tr><th scope="row">801</th><td>Chateau Cotes de Saint</td><td>Wet</td><td>12</td><td>36</td></tr>
+<tr><th scope="row">802</th><td>Petreo Carmenere</td><td>Wet</td><td>12</td><td>38.75</td></tr>
+<tr><th scope="row">803</th><td>Pinot Noir Lothian</td><td>Wet</td><td>12</td><td>56.75</td></tr>
+<tr><th scope="row">804</th><td>Vino Nobile</td><td>Wet</td><td>12</td><td>66</td></tr>
+<tr><th scope="row">805</th><td>Chateau les Hauts</td><td>Wet</td><td>12</td><td>72.65</td></tr>
+<tr><th scope="row">806</th><td>Balade de la Pointe</td><td>Wet</td><td>12</td><td>69.75</td></tr>
+<tr><th scope="row">807</th><td>Pinot Grigio Serena</td><td>Wet</td><td>12</td><td>25.5</td></tr>
+<tr><th scope="row">808</th><td>Vinho Verde</td><td>Wet</td><td>12</td><td>26.85</td></tr>
+<tr><th scope="row">809</th><td>Southern Dawn </td><td>Wet</td><td>12</td><td>26.85</td></tr>
+<tr><th scope="row">810</th><td>Cune Monopole Blanco</td><td>Wet</td><td>12</td><td>27.5</td></tr>
+<tr><th scope="row">811</th><td>Sauvion Chenin Blanc</td><td>Wet</td><td>12</td><td>36</td></tr>
+<tr><th scope="row">812</th><td>La Sablette Muscadet</td><td>Wet</td><td>12</td><td>29.25</td></tr>
+<tr><th scope="row">813</th><td>Roberto Sarotto</td><td>Wet</td><td>12</td><td>45</td></tr>
+<tr><th scope="row">814</th><td>Domaine Chaveau</td><td>Wet</td><td>12</td><td>48.25</td></tr>
+<tr><th scope="row">815</th><td>Domaine Del la Pigeade</td><td>Wet</td><td>12</td><td>46.35</td></tr>
+<tr><th scope="row">816</th><td>Domaine Roland </td><td>Wet</td><td>12</td><td>58.15</td></tr>
+<tr><th scope="row">817</th><td>Pascal Bouchard Chablis</td><td>Wet</td><td>12</td><td>60</td></tr>
+<tr><th scope="row">818</th><td>Barbelle Rose Fleurie</td><td>Wet</td><td>12</td><td>35</td></tr>
+<tr><th scope="row">819</th><td>Discovery Beach</td><td>Wet</td><td>12</td><td>25.4</td></tr>
+<tr><th scope="row">820</th><td>Biozel Champagne</td><td>Wet</td><td>12</td><td>82.2</td></tr>
+<tr><th scope="row">821</th><td>Tempura King Prawns </td><td>Dry</td><td>23</td><td>9</td></tr>
+<tr><th scope="row">822</th><td>Stuffed Mushroom</td><td>Dry</td><td>25</td><td>9</td></tr>
+<tr><th scope="row">823</th><td>Salmon fishcake</td><td>Dry</td><td>25</td><td>9.5</td></tr>
+<tr><th scope="row">824</th><td>Prawn cocktail</td><td>Dry</td><td>25</td><td>11</td></tr>
+<tr><th scope="row">825</th><td>Cajun Salmon Salad</td><td>Dry</td><td>26</td><td>19</td></tr>
+<tr><th scope="row">826</th><td>Pan seared salmon</td><td>Dry</td><td>27</td><td>24</td></tr>
+<tr><th scope="row">827</th><td>Tuna steak</td><td>Dry</td><td>27</td><td>24</td></tr>
+<tr><th scope="row">828</th><td>New york strip</td><td>Dry</td><td>27</td><td>35</td></tr>
+<tr><th scope="row">829</th><td>Bearnaise Sauce</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">830</th><td>Honey Glazed Carrots</td><td>Dry</td><td>28</td><td>4</td></tr>
+<tr><th scope="row">831</th><td>Mushroom Sauce</td><td>Dry</td><td>18</td><td>0</td></tr>
+<tr><th scope="row">832</th><td>Lobster</td><td>Dry</td><td>20</td><td>0</td></tr>
+<tr><th scope="row">833</th><td>Le Gouffre Bfast Burrito</td><td>Dry</td><td>1</td><td>9</td></tr>
+<tr><th scope="row">834</th><td>Potato Galette</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">835</th><td>Kippers on Toast</td><td>Dry</td><td>1</td><td>9.5</td></tr>
+<tr><th scope="row">836</th><td>Chocolate Brownie</td><td>Dry</td><td>5</td><td>9.95</td></tr>
+<tr><th scope="row">837</th><td>Apple Lattice Pie</td><td>Dry</td><td>5</td><td>9.95</td></tr>
+<tr><th scope="row">838</th><td>Seasonal Crumble</td><td>Dry</td><td>5</td><td>9.95</td></tr>
+<tr><th scope="row">839</th><td>Sticky Toffee Pudding</td><td>Dry</td><td>5</td><td>9.95</td></tr>
+<tr><th scope="row">840</th><td>Affogato</td><td>Dry</td><td>5</td><td>7</td></tr>
+<tr><th scope="row">841</th><td>White Chocolate Mousse</td><td>Dry</td><td>5</td><td>9.95</td></tr>
+<tr><th scope="row">842</th><td>Ice Cream</td><td>Dry</td><td>5</td><td>0</td></tr>
+<tr><th scope="row">843</th><td>Vanilla Ice Cream</td><td>Dry</td><td>5</td><td>3.5</td></tr>
+<tr><th scope="row">844</th><td>Chocolate Ice Cream</td><td>Dry</td><td>5</td><td>3.5</td></tr>
+<tr><th scope="row">845</th><td>Strawberry Ice Cream</td><td>Dry</td><td>5</td><td>3.5</td></tr>
+<tr><th scope="row">846</th><td>Coconut Ice Cream</td><td>Dry</td><td>5</td><td>3.5</td></tr>
+<tr><th scope="row">847</th><td>Lemon Sorbet</td><td>Dry</td><td>5</td><td>3.5</td></tr>
+<tr><th scope="row">848</th><td>Mango Sorbet</td><td>Dry</td><td>5</td><td>3.5</td></tr>
+<tr><th scope="row">849</th><td>Kids Gouffre Breakfast</td><td>Dry</td><td>29</td><td>9</td></tr>
+<tr><th scope="row">850</th><td>Kids Eggs on Toast</td><td>Dry</td><td>29</td><td>6.5</td></tr>
+<tr><th scope="row">851</th><td>Kids Waffles</td><td>Dry</td><td>29</td><td>9</td></tr>
+<tr><th scope="row">852</th><td>Kids Burger</td><td>Dry</td><td>29</td><td>9.95</td></tr>
+<tr><th scope="row">853</th><td>Cheese Slice</td><td>Dry</td><td>29</td><td>1</td></tr>
+<tr><th scope="row">854</th><td>Kids Fish Goujons</td><td>Dry</td><td>29</td><td>9.95</td></tr>
+<tr><th scope="row">855</th><td>Kids Chicken Goujons</td><td>Dry</td><td>29</td><td>9.95</td></tr>
+<tr><th scope="row">856</th><td>Kids Pasta</td><td>Dry</td><td>29</td><td>7</td></tr>
+<tr><th scope="row">857</th><td>Duck Liver Parfait</td><td>Dry</td><td>15</td><td>7</td></tr>
+<tr><th scope="row">858</th><td>Prawn Sesame Toast</td><td>Dry</td><td>15</td><td>8</td></tr>
+<tr><th scope="row">859</th><td>Garlic Mushrooms</td><td>Dry</td><td>15</td><td>9</td></tr>
+<tr><th scope="row">860</th><td>Jacket P Cheddar & Beans</td><td>Dry</td><td>25</td><td>10</td></tr>
+<tr><th scope="row">861</th><td>Jacket P Tuna Mayo</td><td>Dry</td><td>25</td><td>11</td></tr>
+<tr><th scope="row">862</th><td>JP Chick Bac Cheese BBQ</td><td>Dry</td><td>25</td><td>13.5</td></tr>
+<tr><th scope="row">863</th><td>Jacket P Crab Mayo Chive</td><td>Dry</td><td>25</td><td>14</td></tr>
+<tr><th scope="row">864</th><td>Jacket P Ve Chilli </td><td>Dry</td><td>25</td><td>11</td></tr>
+<tr><th scope="row">865</th><td>Devilled Kidneys</td><td>Dry</td><td>25</td><td>12</td></tr>
+<tr><th scope="row">866</th><td>Garlic & Chilli Prawns</td><td>Dry</td><td>25</td><td>12</td></tr>
+<tr><th scope="row">867</th><td>Add Bun</td><td>Dry</td><td>2</td><td>1</td></tr>
+<tr><th scope="row">868</th><td>Beef & Ale Pie</td><td>Dry</td><td>27</td><td>22</td></tr>
+<tr><th scope="row">869</th><td>Chick Ham & Leek Pie</td><td>Dry</td><td>27</td><td>22</td></tr>
+<tr><th scope="row">870</th><td>Fisherman's Pie</td><td>Dry</td><td>27</td><td>22</td></tr>
+<tr><th scope="row">871</th><td>Steak & Kidney Pie</td><td>Dry</td><td>27</td><td>22</td></tr>
+<tr><th scope="row">872</th><td>Sourdough Toast</td><td>Dry</td><td>28</td><td>2</td></tr>
+<tr><th scope="row">873</th><td>Panache of Veg</td><td>Dry</td><td>28</td><td>5</td></tr>
+<tr><th scope="row">874</th><td>Soup Of The Day</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">875</th><td>Duck Pate</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">876</th><td>Devilled Kidney on Toast</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">877</th><td>Mushroom Flatbread</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">878</th><td>Moules Mariniere</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">879</th><td>Beef Bourguignon</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">880</th><td>Chicken Coq au Vin</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">881</th><td>Jacket Potato</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">882</th><td>Cheese & Beans</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">883</th><td>Tuna Mayo</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">884</th><td>Vegan Chili Con Carne</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">885</th><td>Crab & Lemon Mayo</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">886</th><td>BBQ Chicken</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">887</th><td>White Chocolate Mousse</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">888</th><td>Sticky Toffee Pudding</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">889</th><td>Chocolate Brownie</td><td>Dry</td><td>30</td><td>0</td></tr>
+<tr><th scope="row">890</th><td>Tennerfest 2 Course</td><td>Dry</td><td>30</td><td>20</td></tr>
+<tr><th scope="row">891</th><td>Tennerfest 3 Course</td><td>Dry</td><td>30</td><td>26</td></tr>
+
+                
+            </tbody>
+          </table>
+            
+            
+        </div>
+    </div>
+        
+    </div>
+      
+    </div>
+      
+      <script>
+        var navbarTopStyle = window.config.config.phoenixNavbarTopStyle;
+        var navbarTop = document.querySelector('.navbar-top');
+        if (navbarTopStyle === 'darker') {
+          navbarTop.setAttribute('data-navbar-appearance', 'darker');
+        }
+
+        var navbarVerticalStyle = window.config.config.phoenixNavbarVerticalStyle;
+        var navbarVertical = document.querySelector('.navbar-vertical');
+        if (navbarVertical && navbarVerticalStyle === 'darker') {
+          navbarVertical.setAttribute('data-navbar-appearance', 'darker');
+        }
+      </script>
+      
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+    <div class="offcanvas offcanvas-end settings-panel border-0" id="settings-offcanvas" tabindex="-1" aria-labelledby="settings-offcanvas">
+      <div class="offcanvas-header align-items-start border-bottom flex-column border-translucent">
+        <div class="pt-1 w-100 mb-6 d-flex justify-content-between align-items-start">
+          <div>
+            <h5 class="mb-2 me-2 lh-sm"><span class="fas fa-palette me-2 fs-8"></span>Theme Customizer</h5>
+            <p class="mb-0 fs-9">Explore different styles according to your preferences</p>
+          </div>
+          <button class="btn p-1 fw-bolder" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fas fa-times fs-8"> </span></button>
+        </div>
+        <button class="btn btn-phoenix-secondary w-100" data-theme-control="reset"><span class="fas fa-arrows-rotate me-2 fs-10"></span>Reset to default</button>
+      </div>
+      <div class="offcanvas-body scrollbar px-card" id="themeController">
+        <div class="setting-panel-item mt-0">
+          <h5 class="setting-panel-item-title">Color Scheme</h5>
+          <div class="row gx-2">
+            <div class="col-4">
+              <input class="btn-check" id="themeSwitcherLight" name="theme-color" type="radio" value="light" data-theme-control="phoenixTheme" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherLight"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/default-light.png" alt=""/></span><span class="label-text">Light</span></label>
+            </div>
+            <div class="col-4">
+              <input class="btn-check" id="themeSwitcherDark" name="theme-color" type="radio" value="dark" data-theme-control="phoenixTheme" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherDark"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text"> Dark</span></label>
+            </div>
+            <div class="col-4">
+              <input class="btn-check" id="themeSwitcherAuto" name="theme-color" type="radio" value="auto" data-theme-control="phoenixTheme" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherAuto"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/auto.png" alt=""/></span><span class="label-text"> Auto</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="border border-translucent rounded-3 p-4 setting-panel-item bg-body-emphasis">
+          <div class="d-flex justify-content-between align-items-center">
+            <h5 class="setting-panel-item-title mb-1">RTL </h5>
+            <div class="form-check form-switch mb-0">
+              <input class="form-check-input ms-auto" type="checkbox" data-theme-control="phoenixIsRTL" />
+            </div>
+          </div>
+          <p class="mb-0 text-body-tertiary">Change text direction</p>
+        </div>
+        <div class="border border-translucent rounded-3 p-4 setting-panel-item bg-body-emphasis">
+          <div class="d-flex justify-content-between align-items-center">
+            <h5 class="setting-panel-item-title mb-1">Support Chat </h5>
+            <div class="form-check form-switch mb-0">
+              <input class="form-check-input ms-auto" type="checkbox" data-theme-control="phoenixSupportChat" />
+            </div>
+          </div>
+          <p class="mb-0 text-body-tertiary">Toggle support chat</p>
+        </div>
+        <div class="setting-panel-item">
+          <h5 class="setting-panel-item-title">Navigation Type</h5>
+          <div class="row gx-2">
+            <div class="col-6">
+              <input class="btn-check" id="navbarPositionVertical" name="navigation-type" type="radio" value="vertical" data-theme-control="phoenixNavbarPosition" data-page-url="documentation/layouts/vertical-navbar.html" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionVertical"> <span class="rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/default-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text">Vertical</span></label>
+            </div>
+            <div class="col-6">
+              <input class="btn-check" id="navbarPositionHorizontal" name="navigation-type" type="radio" value="horizontal" data-theme-control="phoenixNavbarPosition" data-page-url="documentation/layouts/horizontal-navbar.html" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionHorizontal"> <span class="rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text"> Horizontal</span></label>
+            </div>
+            <div class="col-6">
+              <input class="btn-check" id="navbarPositionCombo" name="navigation-type" type="radio" value="combo" data-theme-control="phoenixNavbarPosition" data-page-url="documentation/layouts/combo-navbar.html" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionCombo"> <span class="rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/nav-combo-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/nav-combo-dark.png" alt=""/></span><span class="label-text"> Combo</span></label>
+            </div>
+            <div class="col-6">
+              <input class="btn-check" id="navbarPositionTopDouble" name="navigation-type" type="radio" value="dual-nav" data-theme-control="phoenixNavbarPosition" data-page-url="documentation/layouts/dual-nav.html" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionTopDouble"> <span class="rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/dual-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/dual-dark.png" alt=""/></span><span class="label-text"> Dual nav</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="setting-panel-item">
+          <h5 class="setting-panel-item-title">Vertical Navbar Appearance</h5>
+          <div class="row gx-2">
+            <div class="col-6">
+              <input class="btn-check" id="navbar-style-default" type="radio" name="config.name" value="default" data-theme-control="phoenixNavbarVerticalStyle" />
+              <label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-default"> <img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/default-light.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/default-dark.png" alt="" /><span class="label-text d-dark-none"> Default</span><span class="label-text d-light-none">Default</span></label>
+            </div>
+            <div class="col-6">
+              <input class="btn-check" id="navbar-style-dark" type="radio" name="config.name" value="darker" data-theme-control="phoenixNavbarVerticalStyle" />
+              <label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-dark"> <img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/vertical-darker.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/vertical-lighter.png" alt="" /><span class="label-text d-dark-none"> Darker</span><span class="label-text d-light-none">Lighter</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="setting-panel-item">
+          <h5 class="setting-panel-item-title">Horizontal Navbar Shape</h5>
+          <div class="row gx-2">
+            <div class="col-6">
+              <input class="btn-check" id="navbarShapeDefault" name="navbar-shape" type="radio" value="default" data-theme-control="phoenixNavbarTopShape" data-page-url="documentation/layouts/horizontal-navbar.html" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text">Default</span></label>
+            </div>
+            <div class="col-6">
+              <input class="btn-check" id="navbarShapeSlim" name="navbar-shape" type="radio" value="slim" data-theme-control="phoenixNavbarTopShape" data-page-url="documentation/layouts/horizontal-navbar.html#horizontal-navbar-slim" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeSlim"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-slim.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-slim-dark.png" alt=""/></span><span class="label-text"> Slim</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="setting-panel-item">
+          <h5 class="setting-panel-item-title">Horizontal Navbar Appearance</h5>
+          <div class="row gx-2">
+            <div class="col-6">
+              <input class="btn-check" id="navbarTopDefault" name="navbar-top-style" type="radio" value="default" data-theme-control="phoenixNavbarTopStyle" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-style-darker.png" alt=""/></span><span class="label-text">Default</span></label>
+            </div>
+            <div class="col-6">
+              <input class="btn-check" id="navbarTopDarker" name="navbar-top-style" type="radio" value="darker" data-theme-control="phoenixNavbarTopStyle" />
+              <label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDarker"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/navbar-top-style-light.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-style-lighter.png" alt=""/></span><span class="label-text d-dark-none">Darker</span><span class="label-text d-light-none">Lighter</span></label>
+            </div>
+          </div>
+        </div><a class="bun btn-primary d-grid mb-3 text-white mt-5 btn btn-primary" href="https://themes.getbootstrap.com/product/phoenix-admin-dashboard-webapp-template/" target="_blank">Purchase template</a>
+      </div>
+    </div>
+    </a>
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="../vendors/popper/popper.min.js"></script>
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../vendors/anchorjs/anchor.min.js"></script>
+    <script src="../vendors/is/is.min.js"></script>
+    <script src="../vendors/fontawesome/all.min.js"></script>
+    <script src="../vendors/lodash/lodash.min.js"></script>
+    <script src="../vendors/list.js/list.min.js"></script>
+    <script src="../vendors/feather-icons/feather.min.js"></script>
+    <script src="../vendors/dayjs/dayjs.min.js"></script>
+    <script src="../assets/js/phoenix.js"></script>
+
+  </body>
+
+</html>
